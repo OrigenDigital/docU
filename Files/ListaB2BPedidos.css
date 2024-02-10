@@ -1,0 +1,498 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaB2BPedidos.table-view .column-header,.ListaB2BPedidos.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaB2BPedidos.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaB2BPedidos.table-view  .scroll-bar:horizontal ,
+.ListaB2BPedidos.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaB2BPedidos.table-view  .increment-button ,.ListaB2BPedidos.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaB2BPedidos.table-view  .scroll-bar:horizontal .thumb,
+.ListaB2BPedidos.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaB2BPedidos.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BPedidos.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BPedidos.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaB2BPedidos.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaB2BPedidos-order_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-order_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-tax_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-tax_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-tax_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-tax_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-original_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-original_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-free_shipping.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-free_shipping.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_discount_tax_compensation_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_discount_tax_compensation_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-discount_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-discount_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-tax_percent.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-tax_percent.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-price_incl_tax.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-price_incl_tax.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-product_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-product_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_row_total.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_row_total.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-sku.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-sku.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-discount_tax_compensation_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-discount_tax_compensation_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-weight.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-weight.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_original_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_original_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-row_weight.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-row_weight.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-applied_rule_ids.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-applied_rule_ids.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_amount_refunded.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_amount_refunded.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_price_incl_tax.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_price_incl_tax.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-no_discount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-no_discount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-name.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-name.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_discount_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_discount_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-discount_percent.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-discount_percent.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-discount_tax_compensation_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-discount_tax_compensation_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-created_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-created_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-qty_shipped.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-qty_shipped.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-qty_ordered.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-qty_ordered.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-row_total.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-row_total.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-qty_canceled.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-qty_canceled.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-product_option.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-product_option.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-amount_refunded.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-amount_refunded.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-updated_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-updated_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-qty_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-qty_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-row_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-row_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-row_total_incl_tax.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-row_total_incl_tax.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_tax_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_tax_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-store_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-store_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-item_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-item_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_discount_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_discount_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_row_total_incl_tax.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_row_total_incl_tax.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_discount_tax_compensation_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_discount_tax_compensation_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-product_type.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-product_type.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-qty_refunded.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-qty_refunded.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_row_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_row_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-is_qty_decimal.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-is_qty_decimal.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-discount_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-discount_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos-base_tax_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos-base_tax_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

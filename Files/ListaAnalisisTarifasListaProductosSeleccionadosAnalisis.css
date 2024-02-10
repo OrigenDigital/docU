@@ -1,0 +1,111 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view .column-header,.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .filler {
+-fx-background-color: #DC143C;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .increment-button ,.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-GRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-GRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-NombreSistemaReposicion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-NombreSistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-Ruta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-Ruta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-DescripcionRuta.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaProductosSeleccionadosAnalisis-DescripcionRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

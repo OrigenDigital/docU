@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SeguimientoEnviosFechasRequest xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='SeguimientoEnviosFechasRequest.xsd'>
+<KeyCliFac>xxxxxxxxx</KeyCliFac>
+<FechaInicial>xxxx-xx-xx</FechaInicial>
+<FechaFinal>xxxx-xx-xx</FechaFinal>
+</SeguimientoEnviosFechasRequest>

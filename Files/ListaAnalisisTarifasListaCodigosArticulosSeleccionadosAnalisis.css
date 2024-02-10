@@ -1,0 +1,129 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view .column-header,.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .filler {
+-fx-background-color: #D2691E;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .increment-button ,.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-GRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-GRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-SistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-SistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-NombreSistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-NombreSistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Ruta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Ruta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-NombreRuta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-NombreRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Seleccionado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis-Seleccionado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

@@ -1,0 +1,102 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaPermisosAplicacion.table-view .column-header,.ListaPermisosAplicacion.table-view  .filler {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaPermisosAplicacion.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaPermisosAplicacion.table-view  .scroll-bar:horizontal ,
+.ListaPermisosAplicacion.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaPermisosAplicacion.table-view  .increment-button ,.ListaPermisosAplicacion.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaPermisosAplicacion.table-view  .scroll-bar:horizontal .thumb,
+.ListaPermisosAplicacion.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaPermisosAplicacion.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaPermisosAplicacion.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaPermisosAplicacion.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaPermisosAplicacion.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaPermisosAplicacion-Aplicacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaPermisosAplicacion-Aplicacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPermisosAplicacion-OS.table-cell {
+-fx-text-fill: black;
+}
+.ListaPermisosAplicacion-OS.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPermisosAplicacion-IDUsuario.table-cell {
+-fx-text-fill: black;
+}
+.ListaPermisosAplicacion-IDUsuario.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPermisosAplicacion-ObjetoPermiso.table-cell {
+-fx-text-fill: black;
+}
+.ListaPermisosAplicacion-ObjetoPermiso.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPermisosAplicacion-TipoPermiso.table-cell {
+-fx-text-fill: black;
+}
+.ListaPermisosAplicacion-TipoPermiso.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

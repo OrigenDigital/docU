@@ -1,0 +1,282 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasEvaluacionFinal.table-view .column-header,.ListaAnalisisTarifasEvaluacionFinal.table-view  .filler {
+-fx-background-color: #008B8B;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .increment-button ,.ListaAnalisisTarifasEvaluacionFinal.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasEvaluacionFinal.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasEvaluacionFinal.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasEvaluacionFinal.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasEvaluacionFinal.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasEvaluacionFinal.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasEvaluacionFinal-TipoTarifa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoTarifa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CodigoTarifa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CodigoTarifa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-QtyVentasAnual.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-QtyVentasAnual.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DivisaVenta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DivisaVenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCambioVenta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCambioVenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PrecioEUR.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PrecioEUR.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CosteArticulo.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CosteArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DivisaCoste.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DivisaCoste.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCambioCoste.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCambioCoste.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CosteEUR.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-CosteEUR.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCosteArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoCosteArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PorMargensVta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PorMargensVta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-ImporteMargenSVtaInd.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-ImporteMargenSVtaInd.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-ImporteMargenSVtaLinea.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-ImporteMargenSVtaLinea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoVariacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-TipoVariacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DatoVariacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-DatoVariacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoPrecio.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoPrecio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoPorMargenSVta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoPorMargenSVta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoImporteMargenSVtaInd.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoImporteMargenSVtaInd.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoImporteMargenSVtaLinea.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-NuevoImporteMargenSVtaLinea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PorVariacionMargenSVta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasEvaluacionFinal-PorVariacionMargenSVta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

@@ -1,0 +1,121 @@
+{
+    "IpJRDC": "192.168.10.20",
+    "ColorItemsPares": -2565928,
+    "Version": "9.01",
+    "PrimaryKey": "IDLin",
+    "Items": [
+        {
+            "TipoDato": "INTEGER",
+            "TipoDatoMySQL": "int",
+            "TipoControl": "",
+            "InfoCampo": "",
+            "PrimaryKey": true,
+            "ControlIndependiente": false,
+            "TituloCampo": "IDLin",
+            "Extras": {
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": false,
+            "NoNulo": true,
+            "Campo": "IDLin",
+            "AutoIncremental": true,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": "null"
+        },
+        {
+            "TipoDato": "TEXT",
+            "TipoDatoMySQL": "varchar",
+            "TipoControl": "TextField",
+            "InfoCampo": "",
+            "PrimaryKey": false,
+            "ControlIndependiente": false,
+            "TituloCampo": "Aplicacion",
+            "Extras": {
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": false,
+            "NoNulo": true,
+            "Campo": "Aplicacion",
+            "AutoIncremental": false,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": "null"
+        },
+        {
+            "TipoDato": "TEXT",
+            "TipoDatoMySQL": "enum",
+            "TipoControl": "TextField",
+            "InfoCampo": "",
+            "PrimaryKey": false,
+            "ControlIndependiente": false,
+            "TituloCampo": "OS",
+            "Extras": {
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": false,
+            "NoNulo": true,
+            "Campo": "OS",
+            "AutoIncremental": false,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": "null"
+        },
+        {
+            "TipoDato": "TEXT",
+            "TipoDatoMySQL": "varchar",
+            "TipoControl": "B4XInputDialogTextField",
+            "InfoCampo": "",
+            "PrimaryKey": false,
+            "ControlIndependiente": false,
+            "TituloCampo": "IDUsuario",
+            "Extras": {
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": true,
+            "NoNulo": true,
+            "Campo": "IDUsuario",
+            "AutoIncremental": false,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": "null"
+        },
+        {
+            "TipoDato": "TEXT",
+            "TipoDatoMySQL": "varchar",
+            "TipoControl": "B4XInputDialogTextField",
+            "InfoCampo": "",
+            "PrimaryKey": false,
+            "ControlIndependiente": false,
+            "TituloCampo": "ObjetoPermiso",
+            "Extras": {
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": true,
+            "NoNulo": true,
+            "Campo": "ObjetoPermiso",
+            "AutoIncremental": false,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": ""
+        },
+        {
+            "TipoDato": "TEXT",
+            "TipoDatoMySQL": "enum",
+            "TipoControl": "B4XListDialogTextField",
+            "InfoCampo": "",
+            "PrimaryKey": false,
+            "ControlIndependiente": false,
+            "TituloCampo": "TipoPermiso",
+            "Extras": {
+                "ListaValoresDatosAux": "ADMIN;DENIED;R;RW",
+                "TipoDatosAux": "Lista",
+                "RegexB4XInputDialog": ""
+            },
+            "ControlEditable": true,
+            "NoNulo": true,
+            "Campo": "TipoPermiso",
+            "AutoIncremental": false,
+            "EsFecha": false,
+            "ValorCampoPorDefecto": "null"
+        }
+    ],
+    "ColorItemsImpares": -1184275,
+    "NombreTabla": "tblpermisosaplicaciones",
+    "PuertoJRDC": "17179"
+}

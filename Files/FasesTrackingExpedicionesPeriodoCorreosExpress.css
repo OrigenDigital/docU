@@ -1,0 +1,144 @@
+// tamaño, bordes y color de fondo de los titulos
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .column-header,.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .scroll-bar:horizontal ,
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .increment-button ,.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .scroll-bar:horizontal .thumb,
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.FasesTrackingExpedicionesPeriodoCorreosExpress-FechaEstadoEnvio.table-cell {
+-fx-text-fill: black;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-FechaEstadoEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NumEnvio.table-cell {
+-fx-text-fill: black;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NumEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-Referencia.table-cell {
+-fx-text-fill: black;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-Referencia.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreEstadoEnvio.table-cell {
+-fx-text-fill: black;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreEstadoEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-DescripcionEstadoEnvio.table-cell {
+-fx-text-fill: black;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-DescripcionEstadoEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-Cliente.table-cell {
+-fx-text-fill: #000000;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-Cliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreCliente.table-cell {
+-fx-text-fill: #000000;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreCliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreResponsableCuenta.table-cell {
+-fx-text-fill: #000000;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreResponsableCuenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .column-header.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreResponsableCuenta
+ {
+-fx-background-color: #FFA500;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.FasesTrackingExpedicionesPeriodoCorreosExpress.table-view .column-header.FasesTrackingExpedicionesPeriodoCorreosExpress-NombreResponsableCuenta .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+

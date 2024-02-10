@@ -1,0 +1,264 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header,.ListaEvaluacionProveedoresDatosActuales.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaEvaluacionProveedoresDatosActuales.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaEvaluacionProveedoresDatosActuales.table-view  .scroll-bar:horizontal ,
+.ListaEvaluacionProveedoresDatosActuales.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaEvaluacionProveedoresDatosActuales.table-view  .increment-button ,.ListaEvaluacionProveedoresDatosActuales.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaEvaluacionProveedoresDatosActuales.table-view  .scroll-bar:horizontal .thumb,
+.ListaEvaluacionProveedoresDatosActuales.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaEvaluacionProveedoresDatosActuales-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-Bloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-Bloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-GrupoContableProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-GrupoContableProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-ImporteNetoFacturacion12Meses.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-ImporteNetoFacturacion12Meses.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-NumeroIncidencias12Meses.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-NumeroIncidencias12Meses.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-ProveedorFijoEvaluacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-ProveedorFijoEvaluacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-CalificacionProvisional.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-CalificacionProvisional.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-FechaActualizacionDatosLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedoresDatosActuales-FechaActualizacionDatosLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales-FechaCalificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-FechaCalificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-FechaCalificacion
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales-Calificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-Calificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-Calificacion
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales-UsuarioCalificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-UsuarioCalificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-UsuarioCalificacion
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales-FechaValidacionCalificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-FechaValidacionCalificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-FechaValidacionCalificacion
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-FechaValidacionCalificacion .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaEvaluacionProveedoresDatosActuales-ValidacionCalificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-ValidacionCalificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-ValidacionCalificacion
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-ValidacionCalificacion .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaEvaluacionProveedoresDatosActuales-UsuarioValidacionCalificacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedoresDatosActuales-UsuarioValidacionCalificacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-UsuarioValidacionCalificacion
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaEvaluacionProveedoresDatosActuales.table-view .column-header.ListaEvaluacionProveedoresDatosActuales-UsuarioValidacionCalificacion .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+

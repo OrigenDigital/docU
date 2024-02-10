@@ -1,0 +1,28 @@
+.TextArea0Padding {
+
+.content {
+    -fx-padding: 0 0 0 0;
+  /*  -fx-highlight-fill: transparent;*/
+}
+
+.focused {
+    -fx-background-color:  white;
+   }
+
+.selected {
+    -fx-background-color:  white;
+   }
+}
+*/
+
+ .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+ .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+ .scroll-pane .content{
+    -fx-background-color: transparent;
+}

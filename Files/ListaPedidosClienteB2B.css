@@ -1,0 +1,273 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaPedidosClienteB2B.table-view .column-header,.ListaPedidosClienteB2B.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaPedidosClienteB2B.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaPedidosClienteB2B.table-view  .scroll-bar:horizontal ,
+.ListaPedidosClienteB2B.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaPedidosClienteB2B.table-view  .increment-button ,.ListaPedidosClienteB2B.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaPedidosClienteB2B.table-view  .scroll-bar:horizontal .thumb,
+.ListaPedidosClienteB2B.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaPedidosClienteB2B.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaPedidosClienteB2B.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaPedidosClienteB2B.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaPedidosClienteB2B.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaPedidosClienteB2B-IDPedido.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-IDPedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-IDTienda.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-IDTienda.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-NombreTienda.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-NombreTienda.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-FechaCreacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-FechaCreacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-FechaActualizacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-FechaActualizacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-Pedido.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-Pedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-ClienteERP.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-ClienteERP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-NombreClienteERP.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-NombreClienteERP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-OrdenCompra.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-OrdenCompra.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-TotalQtyPedida.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-TotalQtyPedida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-TotalQtyEnviada.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-TotalQtyEnviada.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-TotalQtyPendienteEnvio.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-TotalQtyPendienteEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-TotalQtyFacturada.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-TotalQtyFacturada.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-TotalQtyPendienteFacturar.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-TotalQtyPendienteFacturar.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-EmailComprador.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-EmailComprador.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-NombreUsuarioComprador.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-NombreUsuarioComprador.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-ApellidoUsuarioComprador.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-ApellidoUsuarioComprador.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-IDGRPCliente.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-IDGRPCliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-GRPClienteERP.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-GRPClienteERP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-IDCliente.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-IDCliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-IDDireccionEnvioClienteERP.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-IDDireccionEnvioClienteERP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-NombreDireccionEnvioClienteERP.table-cell {
+-fx-text-fill: black;
+}
+.ListaPedidosClienteB2B-NombreDireccionEnvioClienteERP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-IDDireccionFacturacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-IDDireccionFacturacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaPedidosClienteB2B-NombreDireccionFacturacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaPedidosClienteB2B-NombreDireccionFacturacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

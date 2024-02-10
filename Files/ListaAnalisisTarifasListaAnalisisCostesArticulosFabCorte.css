@@ -1,0 +1,255 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header,.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .filler {
+-fx-background-color: #000080;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .increment-button ,.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Ruta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-Ruta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-NombreRuta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-NombreRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteStd.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteStd.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteStd.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteStd.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteOferta.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteOferta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteOferta
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteOferta.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteOferta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteOferta
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FichaCosteOferta.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FichaCosteOferta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FichaCosteOferta
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-TipoCosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-TipoCosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-TipoCosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-TipoCosteUsuarioNAV .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-CosteUsuarioNAV .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte-FechaCosteUsuarioNAV .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+

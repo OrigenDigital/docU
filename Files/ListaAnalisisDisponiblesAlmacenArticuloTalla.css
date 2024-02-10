@@ -1,0 +1,471 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view .column-header,.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .filler {
+-fx-background-color: #3D3D3D;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .increment-button ,.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisDisponiblesAlmacenArticuloTalla.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Comentarios.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Comentarios.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Estado.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Estado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Almacen.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Almacen.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreAlmacen.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreAlmacen.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Bloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Bloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ComputableExistencias.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ComputableExistencias.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Inactivo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Inactivo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-AlmacenGestCompras.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-AlmacenGestCompras.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-AlmacenInterno.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-AlmacenInterno.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Taller.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Taller.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Deposito.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Deposito.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Renting.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Renting.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Talla.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Talla.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Stock.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Stock.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-CosteUnitario.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-CosteUnitario.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-TotalCosteStock.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-TotalCosteStock.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ClienteExclusiva.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ClienteExclusiva.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreClienteExclusiva.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreClienteExclusiva.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockNoConfigurado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockNoConfigurado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-SistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-SistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArticuloBloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArticuloBloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArticuloBloqueadoNoDisponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArticuloBloqueadoNoDisponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-GrupoContable.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-GrupoContable.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreRuta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-RutaCorte.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-RutaCorte.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ProveedorPredeterminado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ProveedorPredeterminado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreProveedorPredeterminado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NombreProveedorPredeterminado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-UltimoMovPositivo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-UltimoMovPositivo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad3M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad3M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad6M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad6M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad9M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad9M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad12M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad12M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad24M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Cantidad24M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArtTallaConMaxMin.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-ArtTallaConMaxMin.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockMin.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockMin.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockMax.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-StockMax.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecConsumo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecConsumo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecVenta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecVenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecEnvioTransf.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecEnvioTransf.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecNeta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-NecNeta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Disponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-Disponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-CosteDisponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-CosteDisponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-MesesConsumo6M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-MesesConsumo6M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-SegConsumo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesAlmacenArticuloTalla-SegConsumo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

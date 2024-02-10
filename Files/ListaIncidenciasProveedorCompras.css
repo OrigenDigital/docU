@@ -1,0 +1,219 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaIncidenciasProveedorCompras.table-view .column-header,.ListaIncidenciasProveedorCompras.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaIncidenciasProveedorCompras.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaIncidenciasProveedorCompras.table-view  .scroll-bar:horizontal ,
+.ListaIncidenciasProveedorCompras.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaIncidenciasProveedorCompras.table-view  .increment-button ,.ListaIncidenciasProveedorCompras.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaIncidenciasProveedorCompras.table-view  .scroll-bar:horizontal .thumb,
+.ListaIncidenciasProveedorCompras.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaIncidenciasProveedorCompras.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaIncidenciasProveedorCompras.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaIncidenciasProveedorCompras.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaIncidenciasProveedorCompras.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaIncidenciasProveedorCompras-IncidenciaProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-IncidenciaProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-FechaIncidenciaLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-FechaIncidenciaLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-TipoOrigenIncidenciaProveedor.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaIncidenciasProveedorCompras-TipoOrigenIncidenciaProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-Estado.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaIncidenciasProveedorCompras-Estado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-DepartamentoCoordinador.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaIncidenciasProveedorCompras-DepartamentoCoordinador.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NumTareasAbiertas.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaIncidenciasProveedorCompras-NumTareasAbiertas.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NombreUsuarioEmisor.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-NombreUsuarioEmisor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-OrigenIncidencia.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-OrigenIncidencia.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NombreTipoDocumento.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaIncidenciasProveedorCompras-NombreTipoDocumento.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-DocumentoProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-DocumentoProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-FechaDocumentoProveedorLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-FechaDocumentoProveedorLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-DocumentoOrigen.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-DocumentoOrigen.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NombreTipoIncidencia.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-NombreTipoIncidencia.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-FechaCierreLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-FechaCierreLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-NombreUsuarioCierre.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-NombreUsuarioCierre.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaIncidenciasProveedorCompras-GravedadIncidencia.table-cell {
+-fx-text-fill: black;
+}
+.ListaIncidenciasProveedorCompras-GravedadIncidencia.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

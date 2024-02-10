@@ -1,0 +1,213 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header,.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .filler {
+-fx-background-color: #F4A460;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .column-header .label{
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .increment-button ,.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteRazonable.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteRazonable.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaCosteRazonable.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaCosteRazonable.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaUltimaEntradaCompraFab.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaUltimaEntradaCompraFab.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaUltimaEntradaCompraFab
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaUltimaEntradaCompraFab .label
+ {
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUnitarioArticulo.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUnitarioArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUnitarioArticulo
+ {
+-fx-background-color: #B22222;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUnitarioArticulo .label
+ {
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-TipoCosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-TipoCosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-TipoCosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-CosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaCosteUsuarioNAV.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaCosteUsuarioNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.table-view .column-header.ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion-FechaCosteUsuarioNAV
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+

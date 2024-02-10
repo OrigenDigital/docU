@@ -1,0 +1,1444 @@
+﻿AppType=JavaFX
+Build1=Default,b4j.docU,XL_FULL
+File1=analisisDatos32UniconLabs.png
+File10=Checked24.png
+File100=ListaAnalisisTarifasListaTarifasVentaUsuario.json
+File101=ListaAnalisisTarifasVenta.css
+File102=ListaAnalisisTarifasVenta.json
+File103=ListaArticulosNAV.css
+File104=ListaArticulosNAV.json
+File105=ListaB2BClientes.css
+File106=ListaB2BClientes.json
+File107=ListaB2BDireccionesCliente.css
+File108=ListaB2BDireccionesCliente.json
+File109=ListaB2BLineasAlbaranPedidoCliente.css
+File11=CheckOutlook.vbs
+File110=ListaB2BLineasAlbaranPedidoCliente.json
+File111=ListaB2BLineasPedidoCliente.css
+File112=ListaB2BLineasPedidoCliente.json
+File113=ListaB2BPedidos.css
+File114=ListaB2BPedidos.json
+File115=ListaB2BPedidos2.css
+File116=ListaB2BPedidos2.json
+File117=ListaB2BPedidosCliente.css
+File118=ListaB2BPedidosCliente.json
+File119=ListaB2BProductAttributeSize.css
+File12=CodigosEstadosCorreosExpress.csv
+File120=ListaB2BProductAttributeSize.json
+File121=ListaB2BProductos.css
+File122=ListaB2BProductos.json
+File123=ListaControlDocumentosNoGestionados.json
+File124=ListaControlDocumentosNoGestionados2.json
+File125=ListaControlDocumentosPeriodo.json
+File126=ListaControlOSUBsPendientesNoCorteNoConfeccion.json
+File127=ListaEvaluacionProveedores.css
+File128=ListaEvaluacionProveedores.json
+File129=ListaEvaluacionProveedoresDatosActuales.css
+File13=CodigosIncidenciasCorreosExpress.csv
+File130=ListaEvaluacionProveedoresDatosActuales.json
+File131=ListaEvaluacionProveedoresListaProveedoresFijos.css
+File132=ListaEvaluacionProveedoresListaProveedoresFijos.json
+File133=ListaEvaluacionProveedoresMotivosProveedorFijo.css
+File134=ListaEvaluacionProveedoresMotivosProveedorFijo.json
+File135=ListaExpedicionesPeriodoTXT.json
+File136=ListaExpedicionesSinEntregarTXT.json
+File137=ListaFasesDocumentoNoCorregidas.json
+File138=ListaGeneracionFicherosCSVPedidosVentaLineasPedido.css
+File139=ListaGeneracionFicherosCSVPedidosVentaLineasPedido.json
+File14=CodigosIncidenciasDHL.csv
+File140=ListaIncidenciasProveedorCompras.css
+File141=ListaIncidenciasProveedorCompras.json
+File142=ListaIncidenciasProveedorTareasPendientes.css
+File143=ListaIncidenciasProveedorTareasPendientes.json
+File144=ListaPedidosClienteB2B.css
+File145=ListaPedidosClienteB2B.json
+File146=ListaProveedoresNAV.css
+File147=ListaProveedoresNAV.json
+File148=ListaSeguimientoFechasPrometidasCompras.css
+File149=ListaSeguimientoFechasPrometidasCompras.json
+File15=comment16Freepik.png
+File150=ListaSeguimientoFechasPrometidasPedidosCompraPendientes.json
+File151=local.bjl
+File152=logistics-delivery32.png
+File153=Logo_Proin_bn_transparente.jpg
+File154=logo_protec-marti_BN.jpg
+File155=mainFTP.bjl
+File156=materialdesignicons-webfont.ttf
+File157=MyMenu.css
+File158=navision.png
+File159=NuevoAnalisisTarifasVentaFormRegistro.json
+File16=comment24Freepik.png
+File160=outline_analytics_black_36dp.png
+File161=outline_arrow_circle_right_black_18dp.png
+File162=outline_arrow_circle_right_black_24dp.png
+File163=outline_data_exploration_black_24dp.png
+File164=outline_data_exploration_black_36dp.png
+File165=outline_description_black_36dp.png
+File166=outline_handyman_black_36dp.png
+File167=outline_info_black_36dp.png
+File168=outline_local_shipping_black_24dp.png
+File169=outline_local_shipping_black_36dp.png
+File17=comment64Freepik.png
+File170=outline_logout_black_36dp.png
+File171=outline_shopping_cart_IN_black_24dp.png
+File172=outline_shopping_cart_IN_black_36dp.png
+File173=outline_shopping_cart_OUT_black_24dp.png
+File174=outline_shopping_cart_OUT_black_36dp.png
+File175=outline_shopping_cart_OUT_white_36dp.png
+File176=outline_vpn_key_black_36dp.png
+File177=planning32.png
+File178=PlantillaXLMCorreosSeguimientoEnvio.xml
+File179=PlantillaXLMCorreosSeguimientoFechas.xml
+File18=correosexpress.jpg
+File180=predecir.png
+File181=procedure32.png
+File182=quitar-del-carrito32.png
+File183=salidaPuerta32.png
+File184=salidaPuerta64.png
+File185=scrAnalisisDisponibleEstadoComentarioAlmacenArticuloTalla.bjl
+File186=scrAnalisisDisponiblesAlmacenArticuloTalla.bjl
+File187=scrAnalisisTarifasAnalisisCostesArticulosCompra.bjl
+File188=scrAnalisisTarifasAnalisisCostesArticulosFabCorte.bjl
+File189=scrAnalisisTarifasAnalisisCostesArticulosFabNoCorte.bjl
+File19=delivery-truck32b.png
+File190=scrAnalisisTarifasAnalisisCostesArticulosImportacion.bjl
+File191=scrAnalisisTarifasDatosRevisionVentas.bjl
+File192=scrAnalisisTarifasEvaluacionFinal.bjl
+File193=scrAnalisisTarifasEvaluacionFinal2.bjl
+File194=scrAnalisisTarifasFondoVacio.bjl
+File195=scrAnalisisTarifasInfoCompras.bjl
+File196=scrAnalisisTarifasInfoTarifasVentaValidasTipoTarifaCodigoTarifaArticulo.bjl
+File197=scrAnalisisTarifasInfoVentas.bjl
+File198=scrAnalisisTarifasListaArticulosExcluidos.bjl
+File199=scrAnalisisTarifasListaArticulosExcluidosDatosRevisionVentas.bjl
+File2=analisis-de-datos32SmashingStocks.png
+File20=DHLsq.png
+File200=scrAnalisisTarifasListaArticulosIncluidos.bjl
+File201=scrAnalisisTarifasListaClientesTarifasAnalisis.bjl
+File202=scrAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.bjl
+File203=scrAnalisisTarifasListaCostesArticulosUsuario.bjl
+File204=scrAnalisisTarifasListaGRCsAnalisis.bjl
+File205=scrAnalisisTarifasListaRutasAnalisis.bjl
+File206=scrAnalisisTarifasListaSistemasReposicionAnalisis.bjl
+File207=scrAnalisisTarifasListaTarifasAnalisis.bjl
+File208=scrAnalisisTarifasListaTarifasCompraUsuario.bjl
+File209=scrAnalisisTarifasListaTarifasExcluidas.bjl
+File21=docU.ico
+File210=scrAnalisisTarifasListaTarifasIncluidas.bjl
+File211=scrAnalisisTarifasListaTarifasVentaUsuario.bjl
+File212=scrAnalisisTarifasProductosSeleccionadosAnalisis.bjl
+File213=scrAnalisisTarifasVentaDatosCabecera.bjl
+File214=scrAnalisisTarifasVentaInfoTarifasCompraValidasArticulo.bjl
+File215=scrB2BFichaPedidoCliente2.bjl
+File216=scrB2BListaPedidosCliente.bjl
+File217=scrB2BPedidoClienteLineasAlbaranesPedido.bjl
+File218=scrB2BPedidoClienteLineasFacturasPedido.bjl
+File219=scrB2BPedidoClienteLineasPedido.bjl
+File22=docU32.png
+File220=scrCLVDestinatarios.bjl
+File221=scrControlDocumentosNoGestionados.bjl
+File222=scrControlDocumentosPeriodo.bjl
+File223=scrControlOSUBsPendientesNoConfeccion.bjl
+File224=scrDialogFlexGrid.bjl
+File225=scrDialogTextArea.bjl
+File226=scrDocumentosExpedicion.bjl
+File227=scrDrawerLeft.bjl
+File228=scrDrawerLeftTreeView.bjl
+File229=scrDrawerMenuItemCLV.bjl
+File23=documento naranja32.png
+File230=scrDrawerMenuItemCLV2Img.bjl
+File231=scrECommerce.bjl
+File232=scrEvaluacionProveedores.bjl
+File233=scrEvaluacionProveedoresConfigurarProveedorFijoEvaluacion.bjl
+File234=scrEvaluacionProveedoresProveedoresFijos.bjl
+File235=scrEvaluacionProveedoresSinDrawer.bjl
+File236=scrExpedicionesDHLNoEntregadas.bjl
+File237=scrExpedicionesPeriodoTXT.bjl
+File238=scrExpedicionesSinEntregarTXT.bjl
+File239=scrFasesDocumento.bjl
+File24=documentos16.png
+File240=scrFichaAnalisisTarifasVenta.bjl
+File241=scrFichaIncidenciaSplitPane.bjl
+File242=scrGeneracionFicherosCSVPedidosVenta.bjl
+File243=scrGeneracionFicherosCSVPlantillaPedidosVentaBuscarClienteDireccionEnvio.bjl
+File244=scrGeneracionFicherosCSVPlantillaPedidosVentaItemListaBuscar.bjl
+File245=scrGestionVentas.bjl
+File246=scrIncidenciaProveedorCierreAccionIncidencia.bjl
+File247=scrIncidenciaProveedorNuevoEditarAccionIncidencia.bjl
+File248=scrIncidenciasProveedorAddAccionIncidencia.bjl
+File249=scrIncidenciasProveedorBaseFicha.bjl
+File25=documentos24.png
+File250=scrIncidenciasProveedoresFichaIncidenciaPanelCierreIncidencia.bjl
+File251=scrIncidenciasProveedoresFichaIncidenciaPanelDatosCabecera.bjl
+File252=scrIncidenciasProveedoresFichaIncidenciaPanelDescripcionIncidencia.bjl
+File253=scrIncidenciasProveedoresFichaIncidenciaPanelTareasIncidencia.bjl
+File254=scrIncidenciasProveedoresFichaIncidenciaSplitPanelAux1.bjl
+File255=scrIncidenciasProveedoresFichaIncidenciaSplitPanelAux2.bjl
+File256=scrIncidenciasProveedoresFichaIncidenciaSplitPanelAux3.bjl
+File257=scrIncidenciasProveedoresFichaIncidenciaSplitPanelAux4.bjl
+File258=scrIncidenciasProveedoresFicherosAdjuntos.bjl
+File259=scrIncidenciasProveedoresFicherosAdjuntosFase.bjl
+File26=documentos32.ico
+File260=scrIncidenciasProveedoresItemNuevoFicheroAdjuntoFaseIncidencia.bjl
+File261=scrIncidenciasProveedoresItemNuevoFicheroAdjuntoIncidencia.bjl
+File262=scrIncidenciasProveedorFicha.bjl
+File263=scrIncidenciasProveedorFichaVert.bjl
+File264=scrIncidenciasProveedorFichaVert2.bjl
+File265=scrIncidenciasProveedorGrabarCierreIncidencia.bjl
+File266=scrIncidenciasProveedorItemAccion.bjl
+File267=scrIncidenciasProveedorItemFicheroAdjuntoFaseIncidencia.bjl
+File268=scrIncidenciasProveedorItemFicheroAdjuntoIncidencia.bjl
+File269=scrIncidenciasProveedorLista.bjl
+File27=documentos32.png
+File270=scrIncidenciasProveedorListaTareasPendientes.bjl
+File271=scrIncidenciasProveedorNuevaIncidencia.bjl
+File272=scrIncidenciasProveedorScrollPane1.bjl
+File273=scrIncidenciasProveedorSeleccionCuentasCorreoIncidencia.bjl
+File274=scrIncidenciasProveedorSeleccionDatosEmailFaseIncidencia.bjl
+File275=scrIncidenciasProveedorSeleccionDatosEmailIncidencia.bjl
+File276=scrIncidenciasProveedorSeleccionDatosEmailTareaIncidencia.bjl
+File277=scrInfoAlbaranes.bjl
+File278=scrInformeExpediciones2.bjl
+File279=scrInfoTrackingCorreosExpress.bjl
+File28=documentos512.png
+File280=scrInfoTrackingEnvioCorreosExpress.bjl
+File281=scrInfoTrackingEnviosPeriodo.bjl
+File282=scrInfoTrackingEnviosPeriodoCorreosExpress.bjl
+File283=scrInfoTrackingEnvioTXT.bjl
+File284=scrItemAnalisisTarifasCLVEvaluacionFinal.bjl
+File285=scrItemCLVPrioridadesNoCorte.bjl
+File286=scrItemControlDocumentosNoGestionados.bjl
+File287=scrItemControlDocumentosPeriodo.bjl
+File288=scrItemControlPedidosFabNoConfeccion.bjl
+File289=scrItemControlPedidosFabNoConfeccion2.bjl
+File29=documentos64.ico
+File290=scrItemDocumentoExpedicion.bjl
+File291=scrItemExpedicionesPeriodoTxT.bjl
+File292=scrItemExpedicionSinEntregarTxt.bjl
+File293=scrItemExpedicionTempTXT.bjl
+File294=scrItemExpedicionTxT.bjl
+File295=scrItemFasesDocumentoLin.bjl
+File296=scrItemSeguimientoFechasPrometidasPedidosCompraPendientes.bjl
+File297=scrListaAnalisisTarifasVenta.bjl
+File298=scrListaSeleccionArticuloNAV.bjl
+File299=scrListaSeleccionGeneralJamTableView.bjl
+File3=AnalisisTarifasCosteArticuloUsuarioFormRegistro.json
+File30=documentos64.png
+File300=scrMain.bjl
+File301=scrMainMenu2.bjl
+File302=scrMainMenuBBCodeElementos.bjl
+File303=scrMainMenuTreeView.bjl
+File304=scrMarcarAlbaranFisico.bjl
+File305=scrNuevaFaseDocumento.bjl
+File306=scrRepsol.bjl
+File307=scrRepsolInformacionLogisticaAlbaranVenta.bjl
+File308=scrSeguimientoFechasPrometidasCompra.bjl
+File309=scrSeguimientoFechasPrometidasPedidosCompraPendientes.bjl
+File31=docUSplash.png
+File310=scrSeleccionarArticuloTallaCantidadNuevaLinea.bjl
+File311=scrSeleccionarContacto.bjl
+File312=scrSeleccionProveedorNAV.bjl
+File313=scrSplashScreen.bjl
+File314=scrTestMagento.bjl
+File315=scrTestMagentoHTTPResponse.bjl
+File316=scrTestMagentoJamTableView.bjl
+File317=SendOutlookEmailRte0To1Subj2Body3Attch4.vbs
+File318=shopping-cart32freepick.png
+File319=TextAreaSinPadding.css
+File32=docUSplash2.png
+File320=twotone_exit_black_24dp.png
+File321=txttransporte.jpg
+File322=Unchecked24.png
+File323=utility-knife32.png
+File33=EditarAnalisisTarifasTiposFiltradoDelimitacionJamFormRegistro.json
+File34=ExpedicionesNoEntregadasDHL.css
+File35=ExpedicionesNoEntregadasDHL.json
+File36=FasesTrackingExpedicionCorreosExpress.css
+File37=FasesTrackingExpedicionCorreosExpress.json
+File38=FasesTrackingExpedicionesPeriodoCorreosExpress.css
+File39=FasesTrackingExpedicionesPeriodoCorreosExpress.json
+File4=AnalisisTarifasPrecioCompraUsuarioFormRegistro.json
+File40=folderlink32.png
+File41=ftp.bjl
+File42=GestionVentasAmpliadaPlazos.css
+File43=GestionVentasAmpliadaPlazos.json
+File44=incidencias_carretera.csv
+File45=information32freepik.png
+File46=ListaAnalisisDisponiblesAlmacenArticuloTalla.css
+File47=ListaAnalisisDisponiblesAlmacenArticuloTalla.json
+File48=ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.css
+File49=ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.json
+File5=AnalisisTarifasPrecioVentaUsuarioFormRegistro.json
+File50=ListaAnalisisTarifasEvaluacionFinal.css
+File51=ListaAnalisisTarifasEvaluacionFinal.json
+File52=ListaAnalisisTarifasEvaluacionFinalCLV.json
+File53=ListaAnalisisTarifasInfoComprasArticulo.css
+File54=ListaAnalisisTarifasInfoComprasArticulo.json
+File55=ListaAnalisisTarifasInfoTarifaComprasArticulo.css
+File56=ListaAnalisisTarifasInfoTarifaComprasArticulo.json
+File57=ListaAnalisisTarifasInfoTarifaComprasArticulo2.css
+File58=ListaAnalisisTarifasInfoTarifaComprasArticulo2.json
+File59=ListaAnalisisTarifasInfoVentasTipoTarifaCodigoTarifaArticulo.css
+File6=Appinfo.png
+File60=ListaAnalisisTarifasInfoVentasTipoTarifaCodigoTarifaArticulo.json
+File61=ListaAnalisisTarifasListaAnalisisCostesArticulosCompra.css
+File62=ListaAnalisisTarifasListaAnalisisCostesArticulosCompra.json
+File63=ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.css
+File64=ListaAnalisisTarifasListaAnalisisCostesArticulosFabCorte.json
+File65=ListaAnalisisTarifasListaAnalisisCostesArticulosFabNoCorte.css
+File66=ListaAnalisisTarifasListaAnalisisCostesArticulosFabNoCorte.json
+File67=ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.css
+File68=ListaAnalisisTarifasListaAnalisisCostesArticulosImportacion.json
+File69=ListaAnalisisTarifasListaAnalisisDatosRevisionVentas.css
+File7=arrow-right16.png
+File70=ListaAnalisisTarifasListaAnalisisDatosRevisionVentas.json
+File71=ListaAnalisisTarifasListaArticulosExcluidos.css
+File72=ListaAnalisisTarifasListaArticulosExcluidos.json
+File73=ListaAnalisisTarifasListaArticulosIncluidos.css
+File74=ListaAnalisisTarifasListaArticulosIncluidos.json
+File75=ListaAnalisisTarifasListaClientesTarifasAnalisis.css
+File76=ListaAnalisisTarifasListaClientesTarifasAnalisis.json
+File77=ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.css
+File78=ListaAnalisisTarifasListaCodigosArticulosSeleccionadosAnalisis.json
+File79=ListaAnalisisTarifasListaCostesArticulosUsuario.css
+File8=arrow-right24.png
+File80=ListaAnalisisTarifasListaCostesArticulosUsuario.json
+File81=ListaAnalisisTarifasListaGRCsAnalisis.css
+File82=ListaAnalisisTarifasListaGRCsAnalisis.json
+File83=ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.css
+File84=ListaAnalisisTarifasListaProductosSeleccionadosAnalisis.json
+File85=ListaAnalisisTarifasListaRutasAnalisis.css
+File86=ListaAnalisisTarifasListaRutasAnalisis.json
+File87=ListaAnalisisTarifasListaSistemasReposicionAnalisis.css
+File88=ListaAnalisisTarifasListaSistemasReposicionAnalisis.json
+File89=ListaAnalisisTarifasListaTarifasAnalisis.css
+File9=cargo32.png
+File90=ListaAnalisisTarifasListaTarifasAnalisis.json
+File91=ListaAnalisisTarifasListaTarifasCompraUsuario.css
+File92=ListaAnalisisTarifasListaTarifasCompraUsuario.json
+File93=ListaAnalisisTarifasListaTarifasExcluidas.css
+File94=ListaAnalisisTarifasListaTarifasExcluidas.json
+File95=ListaAnalisisTarifasListaTarifasIncluidas.css
+File96=ListaAnalisisTarifasListaTarifasIncluidas.json
+File97=ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.css
+File98=ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.json
+File99=ListaAnalisisTarifasListaTarifasVentaUsuario.css
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup100=Default Group
+FileGroup101=Default Group
+FileGroup102=Default Group
+FileGroup103=Default Group
+FileGroup104=Default Group
+FileGroup105=Default Group
+FileGroup106=Default Group
+FileGroup107=Default Group
+FileGroup108=Default Group
+FileGroup109=Default Group
+FileGroup11=Default Group
+FileGroup110=Default Group
+FileGroup111=Default Group
+FileGroup112=Default Group
+FileGroup113=Default Group
+FileGroup114=Default Group
+FileGroup115=Default Group
+FileGroup116=Default Group
+FileGroup117=Default Group
+FileGroup118=Default Group
+FileGroup119=Default Group
+FileGroup12=Default Group
+FileGroup120=Default Group
+FileGroup121=Default Group
+FileGroup122=Default Group
+FileGroup123=Default Group
+FileGroup124=Default Group
+FileGroup125=Default Group
+FileGroup126=Default Group
+FileGroup127=Default Group
+FileGroup128=Default Group
+FileGroup129=Default Group
+FileGroup13=Default Group
+FileGroup130=Default Group
+FileGroup131=Default Group
+FileGroup132=Default Group
+FileGroup133=Default Group
+FileGroup134=Default Group
+FileGroup135=Default Group
+FileGroup136=Default Group
+FileGroup137=Default Group
+FileGroup138=Default Group
+FileGroup139=Default Group
+FileGroup14=Default Group
+FileGroup140=Default Group
+FileGroup141=Default Group
+FileGroup142=Default Group
+FileGroup143=Default Group
+FileGroup144=Default Group
+FileGroup145=Default Group
+FileGroup146=Default Group
+FileGroup147=Default Group
+FileGroup148=Default Group
+FileGroup149=Default Group
+FileGroup15=Default Group
+FileGroup150=Default Group
+FileGroup151=Default Group
+FileGroup152=Default Group
+FileGroup153=Default Group
+FileGroup154=Default Group
+FileGroup155=Default Group
+FileGroup156=Default Group
+FileGroup157=Default Group
+FileGroup158=Default Group
+FileGroup159=Default Group
+FileGroup16=Default Group
+FileGroup160=Default Group
+FileGroup161=Default Group
+FileGroup162=Default Group
+FileGroup163=Default Group
+FileGroup164=Default Group
+FileGroup165=Default Group
+FileGroup166=Default Group
+FileGroup167=Default Group
+FileGroup168=Default Group
+FileGroup169=Default Group
+FileGroup17=Default Group
+FileGroup170=Default Group
+FileGroup171=Default Group
+FileGroup172=Default Group
+FileGroup173=Default Group
+FileGroup174=Default Group
+FileGroup175=Default Group
+FileGroup176=Default Group
+FileGroup177=Default Group
+FileGroup178=Default Group
+FileGroup179=Default Group
+FileGroup18=Default Group
+FileGroup180=Default Group
+FileGroup181=Default Group
+FileGroup182=Default Group
+FileGroup183=Default Group
+FileGroup184=Default Group
+FileGroup185=Default Group
+FileGroup186=Default Group
+FileGroup187=Default Group
+FileGroup188=Default Group
+FileGroup189=Default Group
+FileGroup19=Default Group
+FileGroup190=Default Group
+FileGroup191=Default Group
+FileGroup192=Default Group
+FileGroup193=Default Group
+FileGroup194=Default Group
+FileGroup195=Default Group
+FileGroup196=Default Group
+FileGroup197=Default Group
+FileGroup198=Default Group
+FileGroup199=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup200=Default Group
+FileGroup201=Default Group
+FileGroup202=Default Group
+FileGroup203=Default Group
+FileGroup204=Default Group
+FileGroup205=Default Group
+FileGroup206=Default Group
+FileGroup207=Default Group
+FileGroup208=Default Group
+FileGroup209=Default Group
+FileGroup21=Default Group
+FileGroup210=Default Group
+FileGroup211=Default Group
+FileGroup212=Default Group
+FileGroup213=Default Group
+FileGroup214=Default Group
+FileGroup215=Default Group
+FileGroup216=Default Group
+FileGroup217=Default Group
+FileGroup218=Default Group
+FileGroup219=Default Group
+FileGroup22=Default Group
+FileGroup220=Default Group
+FileGroup221=Default Group
+FileGroup222=Default Group
+FileGroup223=Default Group
+FileGroup224=Default Group
+FileGroup225=Default Group
+FileGroup226=Default Group
+FileGroup227=Default Group
+FileGroup228=Default Group
+FileGroup229=Default Group
+FileGroup23=Default Group
+FileGroup230=Default Group
+FileGroup231=Default Group
+FileGroup232=Default Group
+FileGroup233=Default Group
+FileGroup234=Default Group
+FileGroup235=Default Group
+FileGroup236=Default Group
+FileGroup237=Default Group
+FileGroup238=Default Group
+FileGroup239=Default Group
+FileGroup24=Default Group
+FileGroup240=Default Group
+FileGroup241=Default Group
+FileGroup242=Default Group
+FileGroup243=Default Group
+FileGroup244=Default Group
+FileGroup245=Default Group
+FileGroup246=Default Group
+FileGroup247=Default Group
+FileGroup248=Default Group
+FileGroup249=Default Group
+FileGroup25=Default Group
+FileGroup250=Default Group
+FileGroup251=Default Group
+FileGroup252=Default Group
+FileGroup253=Default Group
+FileGroup254=Default Group
+FileGroup255=Default Group
+FileGroup256=Default Group
+FileGroup257=Default Group
+FileGroup258=Default Group
+FileGroup259=Default Group
+FileGroup26=Default Group
+FileGroup260=Default Group
+FileGroup261=Default Group
+FileGroup262=Default Group
+FileGroup263=Default Group
+FileGroup264=Default Group
+FileGroup265=Default Group
+FileGroup266=Default Group
+FileGroup267=Default Group
+FileGroup268=Default Group
+FileGroup269=Default Group
+FileGroup27=Default Group
+FileGroup270=Default Group
+FileGroup271=Default Group
+FileGroup272=Default Group
+FileGroup273=Default Group
+FileGroup274=Default Group
+FileGroup275=Default Group
+FileGroup276=Default Group
+FileGroup277=Default Group
+FileGroup278=Default Group
+FileGroup279=Default Group
+FileGroup28=Default Group
+FileGroup280=Default Group
+FileGroup281=Default Group
+FileGroup282=Default Group
+FileGroup283=Default Group
+FileGroup284=Default Group
+FileGroup285=Default Group
+FileGroup286=Default Group
+FileGroup287=Default Group
+FileGroup288=Default Group
+FileGroup289=Default Group
+FileGroup29=Default Group
+FileGroup290=Default Group
+FileGroup291=Default Group
+FileGroup292=Default Group
+FileGroup293=Default Group
+FileGroup294=Default Group
+FileGroup295=Default Group
+FileGroup296=Default Group
+FileGroup297=Default Group
+FileGroup298=Default Group
+FileGroup299=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup300=Default Group
+FileGroup301=Default Group
+FileGroup302=Default Group
+FileGroup303=Default Group
+FileGroup304=Default Group
+FileGroup305=Default Group
+FileGroup306=Default Group
+FileGroup307=Default Group
+FileGroup308=Default Group
+FileGroup309=Default Group
+FileGroup31=Default Group
+FileGroup310=Default Group
+FileGroup311=Default Group
+FileGroup312=Default Group
+FileGroup313=Default Group
+FileGroup314=Default Group
+FileGroup315=Default Group
+FileGroup316=Default Group
+FileGroup317=Default Group
+FileGroup318=Default Group
+FileGroup319=Default Group
+FileGroup32=Default Group
+FileGroup320=Default Group
+FileGroup321=Default Group
+FileGroup322=Default Group
+FileGroup323=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup72=Default Group
+FileGroup73=Default Group
+FileGroup74=Default Group
+FileGroup75=Default Group
+FileGroup76=Default Group
+FileGroup77=Default Group
+FileGroup78=Default Group
+FileGroup79=Default Group
+FileGroup8=Default Group
+FileGroup80=Default Group
+FileGroup81=Default Group
+FileGroup82=Default Group
+FileGroup83=Default Group
+FileGroup84=Default Group
+FileGroup85=Default Group
+FileGroup86=Default Group
+FileGroup87=Default Group
+FileGroup88=Default Group
+FileGroup89=Default Group
+FileGroup9=Default Group
+FileGroup90=Default Group
+FileGroup91=Default Group
+FileGroup92=Default Group
+FileGroup93=Default Group
+FileGroup94=Default Group
+FileGroup95=Default Group
+FileGroup96=Default Group
+FileGroup97=Default Group
+FileGroup98=Default Group
+FileGroup99=Default Group
+Group=Default Group
+Library1=ahlocale
+Library10=jamclickablebadges
+Library11=jamformregistro
+Library12=jamlinknavision
+Library13=jamloadingindicator
+Library14=jammsgdialog
+Library15=jammsgdialogbbcodeview
+Library16=jampegardatospreview
+Library17=jampermisosaplicaciones
+Library18=jamtableclv
+Library19=jamtableview
+Library2=b4xdrawer
+Library20=javaobject
+Library21=jawtrobot
+Library22=jcalendar
+Library23=jcore
+Library24=jdateutils
+Library25=jfx
+Library26=jnet
+Library27=jnetwork
+Library28=jokhttputils2
+Library29=jrandomaccessfile
+Library3=b4xgifview
+Library30=jreflection
+Library31=jsch
+Library32=jsd_flexgrid
+Library33=jshell
+Library34=json
+Library35=jxmlsax
+Library36=jxui
+Library37=preoptimizedclv
+Library38=sd_loadingindicator
+Library39=xcustomlistview
+Library4=b4xpreferencesdialog
+Library40=xlutils
+Library41=xml2map
+Library42=xui views
+Library5=cssutils
+Library6=dbutils
+Library7=draganddrop2
+Library8=encryption
+Library9=jamcircularprogressbar
+Module1=B4XSwitch_AdjSize
+Module10=cAnalisisTarifasTarifasVentaUsuario
+Module11=cB2BFichaPedidoCliente
+Module12=cB2BListaPedidosCliente
+Module13=cClientFTP
+Module14=cControlDocumentosNoGestionados
+Module15=cControlDocumentosPeriodo
+Module16=cControlOSUBsPendientesNoConfeccion
+Module17=cDocumentosNAVExpedicion
+Module18=cEvaluacionProveedores
+Module19=cEvaluacionProveedoresProveedoresFijos
+Module2=BBListItem
+Module20=cExpedicionesNoEntregadasDHL
+Module21=cExpedicionesPeriodoTXT
+Module22=cExpedicionesSinEntregarTXT
+Module23=cFasesDocumento
+Module24=cFichaAnalisisTarifasVenta
+Module25=cGeneracionFicherosCSVPlantillaPedidosVenta
+Module26=cGestionCompras
+Module27=cGestionVentas
+Module28=cIncidenciaProveedorFicha
+Module29=cIncidenciasProveedorLista
+Module3=cAnalisisDisponibleFichaEstadoComentarioAlmacenArticuloTalla
+Module30=cIncidenciasProveedorTareasAbiertas
+Module31=cInfoEnviosPeriodoCorreosExpress2
+Module32=cInfoExpedicionCorreosExpress
+Module33=cInfoExpedicionDHL
+Module34=cInfoExpedicionTXT
+Module35=cInformesExpedicionesClientes
+Module36=cListaAnalisisTarifasVenta
+Module37=cMarcarAlbaranFisico
+Module38=cmAuxCorreosExpress
+Module39=cmAuxTxT
+Module4=cAnalisisDisponiblesAlmacenArticuloTalla
+Module40=cNuevaFaseDocumento
+Module41=cRepsol
+Module42=cRepsolInformacionLogisticaAlbaran
+Module43=cSeguimientoFechasPrometidasCompra
+Module44=cSeleccionArticuloNAV
+Module45=cSeleccionProveedorNAV
+Module46=CSVParser
+Module47=cT1
+Module48=cTestsInfoMagento
+Module49=DBRequestManager
+Module5=cAnalisisDisponiblesArticuloTallaAlmacenesComputables
+Module50=JRDCQuery
+Module51=MainMenu2
+Module52=RegexBuilder
+Module53=TextFlow
+Module54=Utilidades
+Module55=wildcardlisting
+Module6=cAnalisisTarifasAvisosTarifaCompra
+Module7=cAnalisisTarifasAvisosTarifaVenta
+Module8=cAnalisisTarifasInfoCompras
+Module9=cAnalisisTarifasInfoVentas
+NumberOfFiles=323
+NumberOfLibraries=42
+NumberOfModules=55
+Version=10
+@EndOfDesignText@
+#Region Project Attributes 
+	#MainFormWidth: 600
+	#MainFormHeight: 600 
+#End Region
+
+	' necesario para jamTableView
+	#AdditionalJar: sqlite-jdbc-3.34.0
+	#AdditionalJar: reactfx-2.0-M5
+	
+	
+	' para orientacion y márgenes en documentos WORD https://www.b4x.com/android/forum/threads/xlutils-jpoi-5-read-and-write-ms-excel-workbooks.129969/#post-837656
+	#AdditionalJar: poi-ooxml-full-5.0.0.jar  
+	
+'	#AdditionalJar: commons-logging-1.2
+'	
+'	#AdditionalJar:pdfbox-2.0.19
+'	#AdditionalJar:pdfbox-tools-2.0.19  
+'	#AdditionalJar:fontbox-2.0.19
+'	#AdditionalJar:pdfbox-debugger-2.0.19
+'	#AdditionalJar:xmpbox-2.0.19
+'	#AdditionalJar:preflight-2.0.19
+	
+	' guava, para identificar el tipo de archivo (módulo utilidades)
+	#AdditionalJar: guava-31.0.1-jre    
+	
+	' para jamLinkNavision
+	#AdditionalJar: jna-5.6.0
+	#AdditionalJar: jna-platform-5.6.0
+	
+''	'Zebra SDK
+''	#AdditionalJar: ZSDK_API
+''	#AdditionalJar: jackson-annotations-2.2.3
+''	#AdditionalJar: jackson-core-2.2.3
+''	#AdditionalJar: jackson-databind-2.2.3
+	
+	#VirtualMachineArgs: --add-opens javafx.graphics/com.sun.glass.ui=ALL-UNNAMED
+	
+	' IMPORTANTE: AÑADIR --add-opens javafx.graphics/com.sun.glass.ui=b4j    al PRINCIPIO de bin\release_java_modules.txt en CADA "empaquetamiento"
+ 
+	'#PackagerProperty: VMArgs = --add-opens javafx.graphics/com.sun.glass.ui=b4j   ---> por lo que sea, este método NO añade el texto en el release_java_modules.text .....
+	
+	
+	#PackagerProperty: IconFile = ..\Files\documentos32.ico
+	#PackagerProperty: ExeName = docU
+	
+	#PackagerProperty: IncludedModules = jdk.localedata
+	
+''''	' Corrige bug java con el scale de windows (zoom=125% , ...)
+''''	#PackagerProperty: VMArgs=-Dprism.allowhidpi=false
+''''	#VirtualMachineArgs: -Dprism.allowhidpi=false
+
+		'#VirtualMachineArgs: -Dglass.win.uiScale="100%"   ' este sí que evita el Scale, pero parece que el efecto no es el buscado
+'	
+
+'''	' para jcifs SMB
+'''	#AdditionalJar: slf4j-api-1.7.25.jar
+'''	#AdditionalJar: bctls-jdk15on-1.58.0.0.jar
+'''	#AdditionalJar: bcprov-jdk15on-1.59.jar
+
+'<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+'<a href="https://www.flaticon.com/free-icons/order" title="order icons">Order icons created by Eucalyp - Flaticon</a>
+
+
+'****    Icon chooser: ide://runlem?File=C:/B4X/MaterialIcon-WebFont.jar
+
+Sub Process_Globals
+	Public Const Version As String="1.67"
+
+	Public Const NombreAplicacion As String="docU"
+	Public Const NombreAplicacionForms As String="docU"
+	
+	Type DatosConfiguracionAplicacion (DominioRed As String, NombreUsuarioRed As String, PasswordUsuarioRed As String, ServidorEnvioEmail As String, _
+		PuertoEnvioEmail As Int, DireccionEnvioEmail As String, PasswordEnvioEmail As String, EmailDesarrollador1 As String, EmailDesarrollador2 As String)
+	Public DatosConfiguracionAplicacion As DatosConfiguracionAplicacion
+	
+	
+	'Type DatosUsuario (UsuarioWindows, NombreUsuarioWindows As String, DominioUsuarioWindows As String, NombreADUsuarioWindows As String, IPConexion As String, AutorizadoEdicion As Boolean, Administrador As Boolean)
+	Type DatosUsuario (Dispositivo As String, NombreUsuarioWindows As String, Administrador As Boolean, DominioUsuarioWindows As String, NombreADUsuarioWindows As String,  IPConexion As String)
+	
+	Type ConfiguracionUsuario (IPImpresoraEtiquetasOSUB As String, IPImpresoraEtiquetasEmbalajes As String, IPImpresoraEtiquetasTallas As String)
+	
+	Type DatosImpresora (Almacen As String, IPImpresora As String, NombreImpresora As String,PuertoImpresora As Int)
+	
+	Type Vendedor (Codigo As String, Nombre As String, Email As String, Seleccionado As Boolean)
+	Type ResponsableCuenta (Codigo As String, Nombre As String, Email As String, Seleccionado As Boolean)
+	Type ContactoCliente (ClienteProtec As Int, Codigo As String, Nombre As String, Email As String, Seleccionado As Boolean, Cliente As String, NombreCliente As String, NombreResponsableCuenta As String)
+	
+	Type CellIndex (Row As Int, Column As Int, IDClaveUnicaRegistro As Int, CampoColumna As String, ValorCelda As Object)
+	
+	Type ErrorProcesoInformeCliente(CodigoContacto As String, NombreContacto As String, DireccionEmail As String, ProcesoError As String, DescripcionError As String, Cliente As String, NombreCliente As String, NombreResponsableCuenta As String)
+	
+	Type TipoRespuestaJRDC (Accion As String, Error As String, Aviso As String, lstReg As List)
+	
+	'Dim cPrintAS As cPrintAsyncStream
+	
+	
+	Public fx As JFX
+	Private frm As Form
+	Public xui As XUI
+
+	'Public sf2 As StringFunctions2
+	
+	Public cvs As B4XCanvas
+	
+	Public PrefijoTitleForms As String
+	Public IconoFormularios As Image
+	Public SufijoTitleForms As String
+	Public NombreFicheroIconoAplicacion As String
+	
+
+'	Public SQLMem As SQL
+
+	Type DBResult (Tag As Object, Columns As Map, Rows As List)
+	Type DBCommand (Name As String, Parameters() As Object)
+
+	Public rdclinkMySqlAlmConexion As String
+	Public AlmacenConexion As String
+	Public Const rdclinkMySqlDatosComunes As String="http://192.168.10.20:17179/rdc"
+	Public Const rdcLinkNav As String="http://192.168.10.6:17200/rdc"
+	'Public Const rdcLinkNavPruebas As String="http://192.168.10.6:17205/rdc"
+	Public Const rdclinkMySqlAlmProin As String="http://192.168.10.20:17178/rdc"
+	Public Const rdclinkMySqlAlmProtec As String="http://192.168.10.21:17178/rdc"
+
+	
+	Public ConfiguracionUsuario As ConfiguracionUsuario
+	Public mConfiguracionUsuario As Map
+	
+	Public xScreen, yScreen As Int
+	
+	Public TreeItemMenuAbreForm As TreeItem
+
+	Public const AlineacionCentroDerecha As String="-fx-alignment: CENTER-RIGHT"
+	Public const AlineacionCentro As String="-fx-alignment: CENTER"
+	Public const AlineacionCentroIzquierda As String="-fx-alignment: CENTER-LEFT"
+
+	Public UserFolder As String
+	Public UserTempFolder As String
+	
+	Public DatosUsuario As DatosUsuario
+	
+	Public awesome As Font
+	
+'	Public TipoFilaTv As TipoFilaRecord
+	
+	Public lstSelItem As List
+
+'	Public ArticuloInformePersonalizacion As String
+	
+	Public Robot As JavaObject
+	
+	Public AlmacenIPConexion As String
+
+	Private ImageViewSplashScreen As B4XView
+	Private lblSplashScreenAppVersion As B4XView
+	Private pnlFondoSplashScreen As B4XView
+	
+	Public sCamposFiltradosListaIncidenciasProveedor As String
+	Public lstValoresFiltrosListaIncidenciasProveedor As List
+	
+End Sub
+
+Sub AppStart (Form1 As Form, Args() As String)
+	
+	xui.SetDataFolder(NombreAplicacion)
+
+	#if debug
+	Log("File.DirApp " & File.DirApp)
+	#End If
+	
+'	Log(Utilidades.FormatoNumerico2(-45.234234,1,3,0,True))
+'	Log(Utilidades.FormatoNumerico(-45.234234,1,3))
+'	Log(Utilidades.FormatoNumerico(-0.005,0,0))
+'	Log(Utilidades.FormatoNumerico3(-0.005,0,0,0,True,"","€"))
+	
+	
+
+	Robot = Robot.InitializeStatic("com.sun.glass.ui.Application").RunMethodJO("GetApplication",Null).RunMethodJO("createRobot",Null)
+	
+	mConfiguracionUsuario.Initialize
+'	frm = Form1
+
+
+	Dim rb As AWTRobot
+	DatosUsuario.Dispositivo=rb.SystemHostNameAndIPAddress
+	DatosUsuario.NombreUsuarioWindows=GetSystemProperty("user.name", "default")
+	
+	Dim JO As JavaObject
+	JO.InitializeStatic("java.lang.System")
+	'Log(JO.RunMethod("getProperty",Array As Object("file.separator")))
+	Dim mSys As JavaObject=JO.RunMethodJO("getenv",Null)
+	Log(mSys)
+	Dim mInfoSystem As Map=mSys
+	DatosUsuario.DominioUsuarioWindows=mInfoSystem.Get("USERDOMAIN")
+	DatosUsuario.NombreADUsuarioWindows=DatosUsuario.DominioUsuarioWindows & "\" & DatosUsuario.NombreUsuarioWindows
+	
+	Dim local As ServerSocket
+	local.Initialize(1, "")
+
+	DatosUsuario.IPConexion=local.GetMyIP
+	
+	If DatosUsuario.IPConexion.StartsWith("192.168.10.") Then
+		AlmacenIPConexion="PROIN"
+	End If
+	
+	If DatosUsuario.IPConexion.StartsWith("192.168.20.") Then
+		AlmacenIPConexion="PROTEC"
+	End If
+	
+	If DatosUsuario.IPConexion.StartsWith("10.0.0.") Then
+		AlmacenIPConexion="PROTEC"
+	End If
+	
+	If DatosUsuario.IPConexion.StartsWith("192.168.11") Then
+		AlmacenIPConexion="PROIN"
+	End If
+	
+	If AlmacenIPConexion<>"" Then
+		AlmacenConexion=AlmacenIPConexion
+	End If
+	
+	
+
+'	
+'	SufijoTitleForms="   " & NombreAplicacion & "  v" & Version & "    Usuario: " &  DatosUsuario.NombreUsuarioWindows
+	'
+'	
+'	UserFolder=GetSystemProperty("user.home","") & "\AppData\Roaming\" & NombreAplicacion
+'	UserTempFolder=UserFolder & "\Temp"
+'	
+'	If File.Exists(UserTempFolder,"")=False Then
+'		File.MakeDir(UserTempFolder,"")
+'	Else
+'		Wait For (File.ListFilesAsync(UserTempFolder)) Complete (Success As Boolean, Files As List)
+'		If Success Then
+'			For i=0 To Files.Size-1
+'				File.Delete(UserTempFolder,Files.Get(i))
+'			Next
+'		End If
+'	End If
+	'
+'	forceGC.Initialize
+
+	Dim mScreenDim As Map
+	mScreenDim.Initialize
+	mScreenDim=Utilidades.DimensionesPantalla
+	xScreen=mScreenDim.Get("X")
+	yScreen=mScreenDim.Get("Y")
+	
+
+	
+	awesome = fx.CreateFontAwesome(14)
+	
+'	cPrintAS.Initialize
+	
+'	frm.Initialize("frm",xScreen, yScreen)
+'	frm.Icon = fx.LoadImage(File.DirAssets, "iconfinder_scissors_cut_88498.png")
+'	frm.Title="Corte"
+'	
+'	frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+'	frm.Show
+
+	lstSelItem.Initialize
+	
+	Inicio
+	
+'	CargarDatosConfiguracionAplicacion
+'	Wait For CargarDatosConfiguracionAplicacion_Complete(Accion As String)
+'	If Accion="ErrConn" Then
+'		frm.Initialize("frm",xScreen, yScreen)
+'		frm.Icon = fx.LoadImage(File.DirAssets, "expand64.png")
+'		frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+'		frm.Show
+'		frm.Title="Corte"
+'		Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor. No es posible iniciar la aplicación.","Error")
+'		Wait For (msa) Msgbox_Result
+'		frm.Close
+'	Else
+'		If Accion="ErrNoConf" Then
+'			frm.Initialize("frm",xScreen, yScreen)
+'			frm.Icon = fx.LoadImage(File.DirAssets, "expand64.png")
+'			frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+'			frm.Show
+'			frm.Title="Corte"
+'			Dim msa As Object=xui.MsgboxAsync("Falta configuración de la aplicación, avisar al administrador de la aplicación","Error")
+'			Wait For (msa) Msgbox_Result
+'			frm.Close
+'		Else
+'			CargaPermisosUsuarios
+'			Wait For CargaPermisosUsuarios_Complete(Accion As String)
+'			If Accion="Salir" Then
+'				ExitApplication
+'			Else
+'				SQLFich.InitializeSQLite(File.DirData("Corte"),"Corte.db",True)
+'				SQLMem.InitializeSQLite("", ":memory:", True)
+'	
+'				'''''DBUtils.DropTable(SQL,"tblConfig")  ' usarlo para resetear (si hace falta por cambio en codigo de programacion ...)
+'				Dim sSQL As String
+'				sSQL="SELECT count(name) FROM sqlite_master WHERE Type='table' AND name='tblConfig'"
+'				If SQLFich.ExecQuerySingleResult(sSQL)=0 Then
+'					Dim f As Map
+'					f.Initialize
+'					f.Put("DirectorioFicherosMarcadas",DBUtils.DB_TEXT)
+'					f.Put("DirectorioFicherosCapas",DBUtils.DB_TEXT)
+'					DBUtils.CreateTable(SQLFich,"tblConfig",f,"")
+'					SQLFich.ExecNonQuery2("Insert into tblConfig (DirectorioFicherosMarcadas,DirectorioFicherosCapas) values (?,?)",Array As Object("",""))
+'				End If
+'				'PlanDeCorte.Show
+'				'frm.Close
+'				MainMenu2.Show
+'			End If
+'		End If
+'	End If
+End Sub
+
+Sub Inicio
+	
+	''xui.SetDataFolder("docU")
+	'IconoFormularios=fx.LoadImage(File.DirAssets,"documentos32.png")
+	IconoFormularios=fx.LoadImage(File.DirAssets,"docU32.png")
+	
+	SufijoTitleForms="   " & NombreAplicacion & "  v" & Version & "    Usuario: " &  DatosUsuario.NombreUsuarioWindows
+	
+	NombreFicheroIconoAplicacion="docU32.png"
+	
+	PrefijoTitleForms=NombreAplicacionForms & "  v" & Version & "    Usuario: " &  DatosUsuario.NombreUsuarioWindows & TAB & " "
+	
+'	Dim rb As AWTRobot
+'	DatosUsuario.Dispositivo=rb.SystemHostNameAndIPAddress
+'	DatosUsuario.NombreUsuarioWindows=GetSystemProperty("user.name", "default")
+	
+	Log("DatosUsuario " & DatosUsuario)
+	
+'	Dim mSystemProperties As Map=GetSystemProperties
+'	Log("mSystemProperties")
+'	For Each k As String In mSystemProperties.Keys
+'		Log("Key: " & k & "valor: " & mSystemProperties.Get(k))
+'	Next
+	
+	PrefijoTitleForms=NombreAplicacionForms & "  v" & Version & "    Usuario: " &  DatosUsuario.NombreUsuarioWindows & "\" & DatosUsuario.DominioUsuarioWindows & TAB & " "
+
+	
+	UserFolder=GetSystemProperty("user.home","") & "\AppData\Roaming\" & NombreAplicacion
+	UserTempFolder=UserFolder & "\Temp"
+	Log("UserFolder " & UserFolder)
+	
+'	Dim UserDir As String = GetSystemProperty("user.dir", "")
+'	Log("UserDir " & UserDir)
+	
+	If File.Exists(UserTempFolder,"")=False Then
+		File.MakeDir(UserTempFolder,"")
+	Else
+		Wait For (File.ListFilesAsync(UserTempFolder)) Complete (Success As Boolean, Files As List)
+		If Success Then
+			For i=0 To Files.Size-1
+				File.Delete(UserTempFolder,Files.Get(i))
+			Next
+		End If
+	End If
+	
+	' borrar antigua db, si existe
+	If File.Exists(xui.DefaultFolder,"SQLGestionVentas.db") Then File.Delete(xui.DefaultFolder,"SQLGestionVentas.db")
+	
+				
+	wait for(CargaPermisosUsuario) complete (sResp As String)
+	If sResp="NO" Then
+		ExitApplication
+		Return
+	End If
+			
+	If sResp="ADMIN" Then DatosUsuario.Administrador=True
+
+	If CargaDatosGrabadosConfiguracionUsuario=False Then
+		Dim msa As Object=xui.MsgboxAsync("Error al cargar la configuración de usuario. No es posible iniciar la aplicación.","Error")
+		Wait For (msa) Msgbox_Result
+		frm.Close
+	End If
+
+	'forceGC.Initialize
+	
+	Dim p As B4XView = xui.CreatePanel("")
+	p.SetLayoutAnimated(0, 0, 0, 1dip, 1dip)
+	cvs.Initialize(p)
+	
+'	CargaPermisosUsuarios
+'	Wait For CargaPermisosUsuarios_Complete(Accion As String)
+'	If Accion="Salir" Then
+'		ExitApplication
+'	End If
+'	
+
+	
+	
+	
+	'frm.RootPane.MouseCursor=fx.Cursors.WAIT
+	CargarDatosConfiguracionAplicacion
+	Wait For CargarDatosConfiguracionAplicacion_Complete(Accion As String)
+	'frm.RootPane.MouseCursor=fx.Cursors.WAIT
+	If Accion="ErrConn" Then
+		frm.Initialize("frm",xScreen, yScreen)
+		frm.Icon = IconoFormularios
+		frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+		frm.Show
+		frm.Title="TOJ"
+		Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor (DatosConfigAlmacen). No es posible iniciar la aplicación.","Error")
+		Wait For (msa) Msgbox_Result
+		frm.Close
+	Else
+		If Accion="ErrNoConf" Then
+			frm.Initialize("frm",xScreen, yScreen)
+			frm.Icon = IconoFormularios
+			frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+			frm.Show
+			frm.Title="TOJ"
+			Dim msa As Object=xui.MsgboxAsync("Falta configuración de la aplicación, avisar al administrador de la aplicación","Error")
+			Wait For (msa) Msgbox_Result
+			frm.Close
+		Else
+			'
+'			SQLFich.InitializeSQLite(xui.DefaultFolder,"almZenW.db",True)
+'			SQLMem.InitializeSQLite("", ":memory:", True)
+				
+	
+'			Log("sqliteversion SQLFich " & SQLFich.ExecQuerySingleResult( "SELECT SQLite_version() as sqliteversion"))
+'			Log("sqliteversion SQLMem " & SQLMem.ExecQuerySingleResult( "SELECT SQLite_version() as sqliteversion"))
+	
+			Wait For(ShowSplashScreen2) complete (rObj As Object)
+			MainMenu2.Show
+		End If
+	End If
+
+End Sub
+
+Sub GetSystemProperties As Map
+	Dim jo As JavaObject
+	jo = jo.InitializeStatic("java.lang.management.ManagementFactory").RunMethod("getRuntimeMXBean", Null)
+	Dim m As JavaObject
+	m.InitializeNewInstance("anywheresoftware.b4a.objects.collections.Map$MyMap", Null)
+	m.RunMethod("putAll", Array(jo.RunMethod("getSystemProperties", Null)))
+	Return m
+End Sub
+
+Sub ShowSplashScreen As ResumableSub
+	Dim sp As Form
+	sp.Initialize("sp", 500, 224)
+	sp.SetFormStyle("TRANSPARENT")
+	sp.BackColor = fx.Colors.Transparent
+	
+'	Dim txtVersion As TextField
+'	txtVersion.Initialize("")
+'	txtVersion.Text="v" & Version
+'	sp.RootPane.AddNode(txtVersion,sp.WindowWidth-100,sp.WindowHeight-100,100,100)
+	
+	'change image here
+	CSSUtils.SetBackgroundImage(sp.RootPane, File.DirAssets, "docUSplash2.png")
+
+	
+	sp.Show
+	'utilidades.SetFormMaximized(sp)
+	Utilidades.CenterFormOnScreen(sp)
+	sp.RootPane.Alpha = 0
+	sp.RootPane.SetAlphaAnimated(500, 1)
+	Wait For (sp.RootPane) sp_AnimationCompleted
+	Sleep(2000)
+	sp.RootPane.SetAlphaAnimated(1000, 0)
+	Wait For (sp.RootPane) sp_AnimationCompleted
+	sp.Close
+	'CallSubDelayed(Me, "Splash_Complete")
+	Return Null
+End Sub
+
+
+Sub ShowSplashScreen2 As ResumableSub
+		
+	Dim B4XBitmapSplash As B4XBitmap=xui.LoadBitmap(File.DirAssets, "docUSplash2.png")
+
+
+	Dim sp As Form
+	'sp.Initialize("sp", 500, 375)
+	sp.Initialize("sp", B4XBitmapSplash.Width+20dip, B4XBitmapSplash.Height+20dip)
+	sp.SetFormStyle("TRANSPARENT")
+	sp.BackColor = fx.Colors.Transparent
+
+	
+	sp.RootPane.LoadLayout("scrSplashScreen")
+
+
+	ImageViewSplashScreen.SetBitmap(B4XBitmapSplash)
+	'lblSplashScreenAppVersion.TextColor=xui.Color_DarkGray
+	lblSplashScreenAppVersion.TextColor=xui.Color_LightGray
+	lblSplashScreenAppVersion.Text=$"${NombreAplicacion} v ${Version}"$
+	CSSUtils.SetBorder(ImageViewSplashScreen,1dip,fx.Colors.From32Bit(0xFFD3D3D3),10)
+	
+
+	sp.Show
+	'utilidades.SetFormMaximized(sp)
+	Utilidades.CenterFormOnScreen(sp)
+	sp.RootPane.Alpha = 0
+	sp.RootPane.SetAlphaAnimated(500, 1)
+	Wait For (sp.RootPane) sp_AnimationCompleted
+	Sleep(2000)
+	sp.RootPane.SetAlphaAnimated(500, 0)
+	Wait For (sp.RootPane) sp_AnimationCompleted
+	sp.Close
+	'CallSubDelayed(Me, "Splash_Complete")
+	Return Null
+End Sub
+
+
+
+Sub CargaDatosGrabadosConfiguracionUsuario As Boolean
+	Dim ConfUsuario As Boolean=True
+	Try
+		If File.Exists(UserFolder, "ConfiguracionUsuario.txt") Then
+			Dim ser As B4XSerializator
+			Dim opt() As Object = ser.ConvertBytesToObject(File.ReadBytes(UserFolder, "ConfiguracionUsuario.txt"))
+			mConfiguracionUsuario = opt(0)
+		End If
+	Catch
+		Log(LastException)
+		
+		ConfUsuario=False
+	End Try
+	Return ConfUsuario
+End Sub
+
+Sub CargarDatosConfiguracionAplicacion
+	Dim Accion As String
+	JRDCQuery.DatosJRDC(rdclinkMySqlDatosComunes,"DatosConfigAlmacen",Array("PROTEC"), Me)
+	Wait For DatosJRDC_Completed (mresult As Map)
+	If mresult.Get("ConnOK")=False Then
+'		Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor/query","Error")
+'		Wait For (msa) Msgbox_Result
+'		frm.Close
+		Accion="ErrConn"
+	Else
+		If mresult.Get("ReqOK")=False Then
+'			Dim msa As Object=xui.MsgboxAsync("Falta configuración de la aplicación, avisar al administrador de la aplicación","Error")
+'			Wait For (msa) Msgbox_Result
+'			frm.Close
+			Accion="ErrNoConf"
+		Else
+			Dim lstReg As List=mresult.Get("lstRes")
+			Dim m As Map=lstReg.Get(0)
+			DatosConfiguracionAplicacion.DireccionEnvioEmail=m.Get("EmailSenderError")
+			'DatosConfiguracionAplicacion.DominioRed=m.Get("DominioRed")
+			'DatosConfiguracionAplicacion.NombreUsuarioRed=m.Get("NombreUsuarioRed")
+			DatosConfiguracionAplicacion.PasswordEnvioEmail=m.Get("EmailPsswSenderError")
+			'DatosConfiguracionAplicacion.PasswordUsuarioRed=m.Get("PasswordUsuarioRed")
+			DatosConfiguracionAplicacion.PuertoEnvioEmail=m.Get("PortServerError")
+			DatosConfiguracionAplicacion.ServidorEnvioEmail=m.Get("SMTPServerError")
+			DatosConfiguracionAplicacion.EmailDesarrollador1=m.Get("EmailDeveloper1")
+			DatosConfiguracionAplicacion.EmailDesarrollador2=m.Get("EmailDeveloper2")
+		End If
+		
+	End If
+	
+	
+	CallSubDelayed2(Me,"CargarDatosConfiguracionAplicacion_Complete",Accion)
+End Sub
+
+'Sub CargaPermisosUsuarios
+'	Dim Accion As String
+'	JRDCQuery.DatosJRDC(rdclinkMySqlDatosComunes,"Auth",Array(Utilidades.FixNull(DatosUsuario.NombreUsuariowindows)),Me)
+'	Wait For DatosJRDC_Completed (mresult As Map)
+'	'lblStatus.Text=""
+'	If mresult.Get("ConnOK")=False Then
+'		frm.Initialize("frm",xScreen, yScreen)
+'		frm.Icon = IconoFormularios
+'		frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+'		frm.Show
+'		frm.Title="Corte"
+'		Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor/query","Error")
+'		Wait For (msa) Msgbox_Result
+'		'frm.Close
+'		Accion="Salir"
+'	Else
+'		If mresult.Get("ReqOK")=False Then
+'			frm.Initialize("frm",xScreen, yScreen)
+'			frm.Icon = IconoFormularios
+'			frm.RootPane.LoadLayout("scrMain") 'Load the layout file.
+'			frm.Show
+'			frm.Title="Corte"
+'			Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor/query","Error")
+'			Wait For (msa) Msgbox_Result
+'			'frm.Close
+'			'Accion="Salir"
+'			DatosUsuario.AutorizadoEdicion=False
+'			DatosUsuario.Administrador=False
+'		Else
+'			Dim lstRegistros As List=mresult.Get("lstRes")
+'			Dim mReg As Map=lstRegistros.Get(0)
+'			DatosUsuario.AutorizadoEdicion=Utilidades.FixNullInt(mReg.Get("NUsuario"))>0
+'			If mReg.Get("Admin")=Null Then
+'				DatosUsuario.Administrador=False
+'			Else
+'				DatosUsuario.Administrador=mReg.Get("Admin")
+'			End If
+'			
+'			'btnPosiciones.Visible=Main.DatosUsuario.AutorizadoEdicion
+'		End If
+'	End If
+'	CallSubDelayed2(Me,"CargaPermisosUsuarios_Complete",Accion)
+'End Sub
+
+'Return true to allow the default exceptions handler to handle the uncaught exception.
+Sub Application_Error (Error As Exception, StackTrace As String) As Boolean
+	'Return True
+	
+	LogError(StackTrace)
+	' borrar el fichero, si existe
+	If File.Exists(xui.DefaultFolder,"logCrash.txt") Then
+		File.Delete(xui.DefaultFolder,"logCrash.txt")
+	End If
+	DateTime.DateFormat="dd/MM/yy hh:mm:ss"
+	Dim sb As StringBuilder
+	sb.Initialize
+	sb.Append("Error " & DateTime.Date(DateTime.Now)).Append(CRLF).Append(CRLF).Append(StackTrace)
+	sb.Append(CRLF).Append(Error)
+	Dim sErrMsg As String=sb.ToString
+	' grabar el fichero con el error, para ser enviado por email la siguiente vez que este usuario abra la aplicacion
+	File.WriteString(xui.DefaultFolder,"logCrash.txt",sErrMsg)
+	EnviarEmailErrorApp
+	Return False
+End Sub
+
+Sub EnviarEmailErrorApp
+	Dim SMTP As SMTP
+	SMTP.Initialize(DatosConfiguracionAplicacion.ServidorEnvioEmail, DatosConfiguracionAplicacion.PuertoEnvioEmail, _
+			 DatosConfiguracionAplicacion.DireccionEnvioEmail, DatosConfiguracionAplicacion.PasswordEnvioEmail, "SMTP")
+	SMTP.StartTLSMode = True
+	SMTP.UseSSL = True 'Gmail requires SSL.
+	SMTP.AuthMethod = SMTP.AUTH_LOGIN
+	If DatosConfiguracionAplicacion.EmailDesarrollador1<>"" Or DatosConfiguracionAplicacion.EmailDesarrollador2<>"" Then
+		If DatosConfiguracionAplicacion.EmailDesarrollador1<>"" Then
+			SMTP.To.Add(DatosConfiguracionAplicacion.EmailDesarrollador1)
+		End If
+			
+		If DatosConfiguracionAplicacion.EmailDesarrollador2<>"" Then
+			SMTP.To.Add(DatosConfiguracionAplicacion.EmailDesarrollador2)
+		End If
+			
+		SMTP.Subject = "App crash " & NombreAplicacion
+			
+		'SMTP.Body = "Usuario ejecutando la aplicación cuando ocurre el error: " & DatosUsuario.NombreUsuario
+		SMTP.Body = "Error en versión " & Version & CRLF & DatosUsuario.Dispositivo & "   " & DatosUsuario.NombreUsuarioWindows
+			
+		SMTP.AddAttachment(xui.DefaultFolder,"logCrash.txt")
+		
+		Dim SendEmail As Object =SMTP.Send
+		Wait For (SendEmail) SMTP_MessageSent(Success As Boolean)
+		If Success Then
+			File.Delete(xui.DefaultFolder,"logCrash.txt")
+			ExitApplication
+		Else
+			Log("Error enviando fichero appCrash por email")
+			ExitApplication
+		End If
+	End If
+	
+End Sub
+
+
+
+
+Sub CargaPermisosUsuario As ResumableSub
+	Dim PermisoAPP As String
+	Wait For(cmPermisos.PermisosAplicacionUsuarioObjetoPermiso(rdclinkMySqlDatosComunes, "PermisosAplicacion",NombreAplicacion,DatosUsuario.NombreUsuarioWindows,"Aplicacion")) complete (sRes As String)
+	Select Case sRes
+		Case "ErrConn"
+			Dim msa As Object=xui.MsgboxAsync("Error de conexion servidor/query.","Error")
+			Wait For (msa) Msgbox_Result
+			PermisoAPP="NO"
+		Case "SinPermiso"
+			'en esta aplicacion (docU), no hace falta tener permiso explicito para entrar
+'			Dim msa As Object=xui.MsgboxAsync("No tienes permiso para acceder a esta aplicación.","Aviso")
+'			Wait For (msa) Msgbox_Result
+			'PermisoAPP="NO"
+			PermisoAPP="OK"
+		Case "ERROR"
+			Dim msa As Object=xui.MsgboxAsync(sRes,"Error")
+			Wait For (msa) Msgbox_Result
+			PermisoAPP="NO"
+		Case "DENIED"
+			Dim msa As Object=xui.MsgboxAsync("No tienes permiso para acceder a  esta aplicación.","Aviso")
+			Wait For (msa) Msgbox_Result
+			PermisoAPP="NO"
+		Case Else
+			'Dim PermisoModuloUsuario As String=sRes
+			PermisoAPP=sRes
+	End Select
+	Return PermisoAPP
+End Sub
+

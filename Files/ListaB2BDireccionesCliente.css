@@ -1,0 +1,228 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaB2BDireccionesCliente.table-view .column-header,.ListaB2BDireccionesCliente.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaB2BDireccionesCliente.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaB2BDireccionesCliente.table-view  .scroll-bar:horizontal ,
+.ListaB2BDireccionesCliente.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaB2BDireccionesCliente.table-view  .increment-button ,.ListaB2BDireccionesCliente.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaB2BDireccionesCliente.table-view  .scroll-bar:horizontal .thumb,
+.ListaB2BDireccionesCliente.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaB2BDireccionesCliente.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BDireccionesCliente.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BDireccionesCliente.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaB2BDireccionesCliente.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaB2BDireccionesCliente-customer_code.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BDireccionesCliente-customer_code.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-code.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BDireccionesCliente-code.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-firstname.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-firstname.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-city.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-city.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-region_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-region_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-postcode.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-postcode.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-telephone.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-telephone.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-default_shipping.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-default_shipping.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-default_billing.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BDireccionesCliente-default_billing.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-lastname.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-lastname.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-custom_attributes.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-custom_attributes.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-company.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-company.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-customer_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-customer_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-region.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-region.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-country_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-country_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-street1.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-street1.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-street2.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-street2.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BDireccionesCliente-street3.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BDireccionesCliente-street3.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

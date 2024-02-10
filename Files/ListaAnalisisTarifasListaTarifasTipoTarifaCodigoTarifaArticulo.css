@@ -1,0 +1,129 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view .column-header,.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .filler {
+-fx-background-color: #FF8C00;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .column-header .label{
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .increment-button ,.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-Variante.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-Variante.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-CantidadMinima.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-CantidadMinima.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-Moneda.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-Moneda.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-UM.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-UM.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-PrecioUnitario.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-PrecioUnitario.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-FechaInicial.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-FechaInicial.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-FechaFinal.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-FechaFinal.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-UMVenta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasTipoTarifaCodigoTarifaArticulo-UMVenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

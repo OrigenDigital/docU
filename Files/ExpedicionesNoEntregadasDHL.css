@@ -1,0 +1,111 @@
+// tamaño, bordes y color de fondo de los titulos
+.ExpedicionesNoEntregadasDHL.table-view .column-header,.ExpedicionesNoEntregadasDHL.table-view  .filler {
+-fx-background-color: #006A5C;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ExpedicionesNoEntregadasDHL.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ExpedicionesNoEntregadasDHL.table-view  .scroll-bar:horizontal ,
+.ExpedicionesNoEntregadasDHL.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ExpedicionesNoEntregadasDHL.table-view  .increment-button ,.ExpedicionesNoEntregadasDHL.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ExpedicionesNoEntregadasDHL.table-view  .scroll-bar:horizontal .thumb,
+.ExpedicionesNoEntregadasDHL.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ExpedicionesNoEntregadasDHL.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ExpedicionesNoEntregadasDHL.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ExpedicionesNoEntregadasDHL.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ExpedicionesNoEntregadasDHL.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ExpedicionesNoEntregadasDHL-NumExpedicion.table-cell {
+-fx-text-fill: black;
+}
+.ExpedicionesNoEntregadasDHL-NumExpedicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ExpedicionesNoEntregadasDHL-Referencia.table-cell {
+-fx-text-fill: #000000;
+}
+.ExpedicionesNoEntregadasDHL-Referencia.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ExpedicionesNoEntregadasDHL-DescripcionSituacion.table-cell {
+-fx-text-fill: black;
+}
+.ExpedicionesNoEntregadasDHL-DescripcionSituacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ExpedicionesNoEntregadasDHL-Fecha.table-cell {
+-fx-text-fill: black;
+}
+.ExpedicionesNoEntregadasDHL-Fecha.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ExpedicionesNoEntregadasDHL-Hora.table-cell {
+-fx-text-fill: black;
+}
+.ExpedicionesNoEntregadasDHL-Hora.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ExpedicionesNoEntregadasDHL-Observaciones.table-cell {
+-fx-text-fill: black;
+}
+.ExpedicionesNoEntregadasDHL-Observaciones.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

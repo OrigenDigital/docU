@@ -1,0 +1,309 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaB2BPedidos2.table-view .column-header,.ListaB2BPedidos2.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaB2BPedidos2.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaB2BPedidos2.table-view  .scroll-bar:horizontal ,
+.ListaB2BPedidos2.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaB2BPedidos2.table-view  .increment-button ,.ListaB2BPedidos2.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaB2BPedidos2.table-view  .scroll-bar:horizontal .thumb,
+.ListaB2BPedidos2.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaB2BPedidos2.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BPedidos2.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BPedidos2.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaB2BPedidos2.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaB2BPedidos2-store_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-store_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-order_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-order_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-po_number.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BPedidos2-po_number.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-created_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-created_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-updated_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-updated_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-free_shipping.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-free_shipping.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-product_type.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-product_type.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-item_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-item_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-product_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-product_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-sku.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-sku.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-name.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-name.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-Talla.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-Talla.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-original_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-original_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-base_original_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-base_original_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-base_price.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-base_price.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-tax_percent.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-tax_percent.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-qty_ordered.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-qty_ordered.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-qty_shipped.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-qty_shipped.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-qty_canceled.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-qty_canceled.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-qty_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-qty_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-qty_refunded.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-qty_refunded.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-base_row_total.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-base_row_total.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-row_total.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-row_total.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-row_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-row_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-discount_amount.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-discount_amount.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-base_row_invoiced.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-base_row_invoiced.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BPedidos2-is_qty_decimal.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BPedidos2-is_qty_decimal.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

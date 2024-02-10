@@ -1,0 +1,93 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view .column-header,.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .filler {
+-fx-background-color: #FF7F50;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .column-header .label{
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .increment-button ,.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaTarifasAnalisis.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaTarifasAnalisis-NombreTipoTarifa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-NombreTipoTarifa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-CodigoTarifa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-CodigoTarifa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-NombreTarifa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-NombreTarifa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-Seleccionado.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaTarifasAnalisis-Seleccionado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

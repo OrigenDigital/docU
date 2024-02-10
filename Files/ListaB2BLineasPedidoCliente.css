@@ -1,0 +1,201 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaB2BLineasPedidoCliente.table-view .column-header,.ListaB2BLineasPedidoCliente.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaB2BLineasPedidoCliente.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaB2BLineasPedidoCliente.table-view  .scroll-bar:horizontal ,
+.ListaB2BLineasPedidoCliente.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaB2BLineasPedidoCliente.table-view  .increment-button ,.ListaB2BLineasPedidoCliente.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaB2BLineasPedidoCliente.table-view  .scroll-bar:horizontal .thumb,
+.ListaB2BLineasPedidoCliente.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaB2BLineasPedidoCliente.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BLineasPedidoCliente.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BLineasPedidoCliente.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaB2BLineasPedidoCliente.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaB2BLineasPedidoCliente-LineaPedido.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BLineasPedidoCliente-LineaPedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-ItemSKU.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-ItemSKU.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-ItemParentSKU.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-ItemParentSKU.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-CodigoArticuloNAV.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-CodigoArticuloNAV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-DescripcionProductoB2B.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-DescripcionProductoB2B.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-TallaB2B.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-TallaB2B.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-QtyPedida.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-QtyPedida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-UOMB2B.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-UOMB2B.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-QtyEnviada.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-QtyEnviada.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-QtyPteEnviar.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BLineasPedidoCliente-QtyPteEnviar.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-QtyFacturada.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-QtyFacturada.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-QtyEnviadaPteFacturar.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BLineasPedidoCliente-QtyEnviadaPteFacturar.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-Precio.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-Precio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-TipoIVA.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-TipoIVA.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-ImporteIVA.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-ImporteIVA.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BLineasPedidoCliente-UNSPSC.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BLineasPedidoCliente-UNSPSC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

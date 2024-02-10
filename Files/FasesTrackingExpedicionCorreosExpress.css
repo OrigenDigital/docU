@@ -1,0 +1,91 @@
+// tamaño, bordes y color de fondo de los titulos
+.table-view .column-header, .table-view .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.table-view .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//Color para objetos seleccionados en el tableview --> celdas seleccionadas
+.table-view {
+-fx-accent: lightskyblue ;
+}
+//ScrollBars
+.table-view .scroll-bar:horizontal ,
+.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.table-cell:selected {
+-fx-border-color: red red red red;
+-fx-border-width: 1px;
+}
+
+.table-row-cell:odd:contains-selection {
+-fx-background: lightgray ;
+}
+
+.table-row-cell:even:contains-selection {
+-fx-background: lightgray ;
+}
+
+.table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+.FechaEstado.table-cell {
+-fx-alignment: CENTER_LEFT;
+-fx-border-width: 1px;
+}
+.FechaEstado.table-cell:selected {
+-fx-border-width: 1px;
+
+}
+.HoraEstado.table-cell {
+-fx-alignment: CENTER_LEFT;
+-fx-border-width: 1px;
+}
+.HoraEstado.table-cell:selected {
+-fx-border-width: 1px;
+
+}
+.NombreEstadoEnvio.table-cell {
+-fx-alignment: CENTER_LEFT;
+-fx-border-width: 1px;
+}
+.NombreEstadoEnvio.table-cell:selected {
+-fx-border-width: 1px;
+
+}
+.DescripcionEstadoEnvio.table-cell {
+-fx-alignment: CENTER_LEFT;
+-fx-border-width: 1px;
+}
+.DescripcionEstadoEnvio.table-cell:selected {
+-fx-border-width: 1px;
+
+}

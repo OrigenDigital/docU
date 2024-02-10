@@ -1,0 +1,372 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view .column-header,.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .filler {
+-fx-background-color: #3D3D3D;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .increment-button ,.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Comentarios.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Comentarios.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Estado.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Estado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Talla.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Talla.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Stock.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Stock.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-CosteUnitario.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-CosteUnitario.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-TotalCosteStock.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-TotalCosteStock.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ClienteExclusiva.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ClienteExclusiva.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreClienteExclusiva.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreClienteExclusiva.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-StockNoConfigurado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-StockNoConfigurado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-SistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-SistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArticuloBloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArticuloBloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArticuloBloqueadoNoDisponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArticuloBloqueadoNoDisponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-GrupoContable.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-GrupoContable.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreRuta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-RutaCorte.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-RutaCorte.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ProveedorPredeterminado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ProveedorPredeterminado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreProveedorPredeterminado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NombreProveedorPredeterminado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-UltimoMovPositivo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-UltimoMovPositivo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad3M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad3M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad6M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad6M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad9M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad9M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad12M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad12M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad24M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Cantidad24M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArtTallaConMaxMin.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-ArtTallaConMaxMin.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecConsumo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecConsumo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecVenta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecVenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecEnvioTransf.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecEnvioTransf.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-PteRecepcionTransf.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-PteRecepcionTransf.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecNeta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-NecNeta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Disponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-Disponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-CosteDisponible.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-CosteDisponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-MesesConsumo6M.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-MesesConsumo6M.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-SegConsumo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisDisponiblesArticuloTallaAlmacenesComputables-SegConsumo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

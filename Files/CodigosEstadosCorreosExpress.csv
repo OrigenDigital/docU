@@ -1,0 +1,43 @@
+﻿KEY_ESTADO_FISICO;NOMBRE;DESCRIPCION
+1;SIN RECEPCION;Son los envíos que se han recogido en la delegación, pero aun no se han recepcionado. Proceso de Admisión
+2;EN ARRASTRE;Son los envíos que se han recepcionado en la delegación (Proceso de Admisión) y se preparan para su posterior arrastre a la delegación destino
+3;TRAMO ORIGEN;Este estado intermedio comprende los envíos que no se transitan a otras delegaciones
+4;TRANSITO;Son los envíos que están en su arrastre desde su delegación origen a su delegación destino y transitan en una delegación cruce. Cualquier envío que llega a un destino que no le corresponde permanece en este estado
+5;MAL TRANSITADO;Envíos que en su arrastre llega a una delegación distinta de la delegación de entrega, y además un usuario los identifica como tales por lectura de tipo Mal Transitado
+6;DELEGACION DESTINO;Este estado representa la llegada de los envíos a la delegación de entrega de los mismos, siempre que coincidan
+7;TRAMO DESTINO;Este estado intermedio comprende la mercancía que ha llegado a su delegación destino sea cual sea el origen y que no ha sido salido al reparto de la delegación
+8;EN REPARTO;Los envíos están asignados a un chofer para el reparto
+9;REPARTO FALLIDO;Son los envíos que han pasado por estado En Reparto, pero no han sido entregados. El modo de llegar a este estado depende de los eventos previos disponibles con el uso de PDA. No obstante sirve en el modelo para representar las situaciones que se pueden dar a continuación
+10;ALMACEN ESTACIONADO;Son los envíos No repartidos que no tienen una solución inmediata para pasarlo al estado Nuevo Reparto y necesitan ser gestionados antes de intentar su entrega
+11;NUEVO REPARTO;Este estado recoge los envíos No repartidos que puedo poner de nuevo en reparto porque su motivo de incidencia tiene solución inmediata. También llegan a este estado los que han Salido de estacionado tras su solución
+12;ENTREGADO;El envío se ha entregado. (estado Definitivo)
+13;NO LOCALIZADO;Este estado se asigna a aquellos envíos que no consiguen llegar a una situación final (estado Definitivo)
+14;REEXPEDIDO;Este estado representa los envíos que una vez gestionados, su entrega será en una delegación distinta de la delegación original, para ello se genera un nuevo envío (estado Definitivo)
+15;ALM. REGULADOR;Son envíos que no pueden ser entregados ni al remitente ni al destinatario y que necesitan una gestión mas compleja para su entrega. Físicamente se ubican fuera de delegación. (estado Definitivo)
+16;DESTRUIDO;Este estado representa la destrucción del envío. (estado Definitivo)
+17;DEVUELTO;Estos son los envíos que no han podido ser entregados y, tras su gestión, se devuelven al cliente remitente. Como se genera un nuevo envío, la ida queda con este (estado definitivo)
+18;TRANSFERIDO PROVEEDOR;El envío ha sido entregado a un proveedor para su entrega
+19;ANULADO;El envío lleva demasiado tiempo en sin recepción, ha caducado
+20;PROVEEDOR/TRANSITO;Envios entregados a un Proveedor posicionados en Arrastre
+21;PROVEEDOR/DELEGACION;Envios entregados a un Proveedor posicionados en alguna de sus delegaciones
+22;PROVEEDOR/ESTACIONADO;Envios entregados a un Proveedor y que este Estaciona por alguna incidencia
+23;PROVEEDOR/EN REPARTO;Envios entregados a un Proveedor asignados a un conductor en reparto
+24;PROVEEDOR/SIN RECEPCION;Son los envíos que tienen un origen en el Proveedor, generalmente devoluciones de estos
+25;PROVEEDOR/ARRASTRE;Arrastre proveedor
+26;PROVEEDOR/MAL TRANSITADO;Mal transitado proveedor
+27;PROVEEDOR/DELEGACION ORIGEN;Delegación origen proveedor
+28;PROVEEDOR/DELEGACION DESTINO;Delegación destino proveedor
+29;PROVEEDOR/REPARTO FALLIDO;Reparto fallido proveedor
+30;PROVEEDOR/NUEVO REPARTO;Nuevo reparto proveedor
+31;PROVEEDOR/NO LOCALIZADO;No localizado proveedor
+32;PROVEEDOR/INFORMADA DEVOLUCION;Envios que el proveedor nos informa que devuelve. Nos sirve para monitorizar aquellos envios que el proveedor devuelve. Si la operativa es correcta por parte de proveedor deberian haber un estado DEVUELTO a continuacion
+33;PROVEEDOR/CESION ALM. ADUANA;El proveedor de Aduanas hace una cesion completa del envio al agente aduanero del destinatario
+34;ENTREGADO/PROVEEDOR;Situación provisional de envios entregados por el Proveedor. Posteriormente nos debe informar de un estado definitivo.
+35;ENTREGADO EN PUNTO CONCERTADO;ENTREGADO EN PUNTO CONCERTADO
+36;RECEPCIONADO EN OFICINA;Envíos que se recepcionan en las Oficinas de Correos
+37;PARALIZADO;El cliente ordena parar la entrega del envío
+38;DEPOSITADO EN OFICINA;Envíos depositados en Oficinas de Correos por un conductor para su entrega a destinatario final
+39;DISPONIBLE EN OFICINA;Envíos disponibles en Oficinas de Correos para su entrega a destinatario final
+40;DEVUELTO EN OFICINA;Estado inicial de Envíos que se devuelven en Oficinas de Correos (el original estará DEVUELTO)
+41;TRANSITO ESTACIONADOS;Envios a los que se ha dado solucion recoger en nave en una delegacion donde no se permite recoger. Se transitan a una delegacion donde si se permite recoger en nave
+42;RECOGIDO; Envíos con lectura de recogido por el chofer.

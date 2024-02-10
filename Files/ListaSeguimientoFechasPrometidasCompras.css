@@ -1,0 +1,333 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header,.ListaSeguimientoFechasPrometidasCompras.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaSeguimientoFechasPrometidasCompras.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaSeguimientoFechasPrometidasCompras.table-view  .scroll-bar:horizontal ,
+.ListaSeguimientoFechasPrometidasCompras.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaSeguimientoFechasPrometidasCompras.table-view  .increment-button ,.ListaSeguimientoFechasPrometidasCompras.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaSeguimientoFechasPrometidasCompras.table-view  .scroll-bar:horizontal .thumb,
+.ListaSeguimientoFechasPrometidasCompras.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaSeguimientoFechasPrometidasCompras-Pedido.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Pedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPedido.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-DiasDesdePedido.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-DiasDesdePedido.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-DiasDesdePedido
+ {
+-fx-background-color: #8B0000;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras-VPG.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-VPG.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-Linea.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Linea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-Talla.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Talla.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-Qty.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-Qty.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-QtyPendiente.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-QtyPendiente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-QtyEnAlmacenRecepcionPendiente.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaSeguimientoFechasPrometidasCompras-QtyEnAlmacenRecepcionPendiente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-QtyEnAlmacenRecepcionPendiente
+ {
+-fx-background-color: #00FA9A;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-QtyEnAlmacenRecepcionPendiente .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaSeguimientoFechasPrometidasCompras-RecPteRecep.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-RecPteRecep.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPrometida.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPrometida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPrometidaVencida.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaPrometidaVencida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-FechaPrometidaVencida
+ {
+-fx-background-color: #FFA500;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-FechaPrometidaVencida .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaSeguimientoFechasPrometidasCompras-PendienteSeguimiento.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-PendienteSeguimiento.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-PendienteSeguimiento
+ {
+-fx-background-color: #FF4500;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-PendienteSeguimiento .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.ListaSeguimientoFechasPrometidasCompras-DiasRespectoAPlazo.table-cell {
+-fx-text-fill: black;
+}
+.ListaSeguimientoFechasPrometidasCompras-DiasRespectoAPlazo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaEnvioReclamacionLong.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaSeguimientoFechasPrometidasCompras-FechaEnvioReclamacionLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-DiasDesdeReclamacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaSeguimientoFechasPrometidasCompras-DiasDesdeReclamacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras-ExcluidoReclamacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaSeguimientoFechasPrometidasCompras-ExcluidoReclamacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-ExcluidoReclamacion
+ {
+-fx-background-color: #FF0000;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras-DireccionEmail.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaSeguimientoFechasPrometidasCompras-DireccionEmail.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-DireccionEmail
+ {
+-fx-background-color: #00BFFF;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+.ListaSeguimientoFechasPrometidasCompras.table-view .column-header.ListaSeguimientoFechasPrometidasCompras-DireccionEmail .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+

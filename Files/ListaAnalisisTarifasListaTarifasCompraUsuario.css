@@ -1,0 +1,156 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view .column-header,.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .filler {
+-fx-background-color: #778899;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .increment-button ,.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaTarifasCompraUsuario.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Divisa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Divisa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-PrecioUnitarioDivisa.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-PrecioUnitarioDivisa.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-TipoCambio.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-TipoCambio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-PrecioUnitarioEUR.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-PrecioUnitarioEUR.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-FechaActualizacionLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-FechaActualizacionLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-UsuarioActualizacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-UsuarioActualizacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Seleccionado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaTarifasCompraUsuario-Seleccionado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

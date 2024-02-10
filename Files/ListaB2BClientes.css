@@ -1,0 +1,237 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaB2BClientes.table-view .column-header,.ListaB2BClientes.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaB2BClientes.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaB2BClientes.table-view  .scroll-bar:horizontal ,
+.ListaB2BClientes.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaB2BClientes.table-view  .increment-button ,.ListaB2BClientes.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaB2BClientes.table-view  .scroll-bar:horizontal .thumb,
+.ListaB2BClientes.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaB2BClientes.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BClientes.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaB2BClientes.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaB2BClientes.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaB2BClientes-id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-email.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-email.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-is_blocked.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BClientes-is_blocked.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-store_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-store_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-created_in.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-created_in.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-firstname.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-firstname.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-lastname.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-lastname.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-code.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BClientes-code.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-group_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-group_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-customer_group_code.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BClientes-customer_group_code.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-customer_group_name.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BClientes-customer_group_name.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-default_shipping.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-default_shipping.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-default_billing.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-default_billing.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-gender.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-gender.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-created_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-created_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-updated_at.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-updated_at.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-disable_auto_group_change.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-disable_auto_group_change.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-dob.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-dob.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-website_id.table-cell {
+-fx-text-fill: black;
+}
+.ListaB2BClientes-website_id.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaB2BClientes-is_commercial.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaB2BClientes-is_commercial.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

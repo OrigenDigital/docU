@@ -1,0 +1,174 @@
+/* tamaño, bordes y color de fondo de los titulos*/
+.ListaEvaluacionProveedores.table-view .column-header,.ListaEvaluacionProveedores.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+/* centrar y cambiar color de los titulos de columnas*/
+.ListaEvaluacionProveedores.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+/*ScrollBars*/
+.ListaEvaluacionProveedores.table-view  .scroll-bar:horizontal ,
+.ListaEvaluacionProveedores.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaEvaluacionProveedores.table-view  .increment-button ,.ListaEvaluacionProveedores.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaEvaluacionProveedores.table-view  .scroll-bar:horizontal .thumb,
+.ListaEvaluacionProveedores.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+/*Fin Scrollbars*/
+
+.ListaEvaluacionProveedores.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaEvaluacionProveedores.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaEvaluacionProveedores.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaEvaluacionProveedores.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+/* COLUMNAS*/
+.ListaEvaluacionProveedores-Proveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-Proveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-NombreProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-NombreProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-NumeroIncidencias.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-NumeroIncidencias.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-Bloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-Bloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-GrupoContableProveedor.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-GrupoContableProveedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-GrupoContableProveedorEvaluable.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-GrupoContableProveedorEvaluable.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-ImporteNetoFacturacion12Meses.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-ImporteNetoFacturacion12Meses.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-ActivoFacturacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-ActivoFacturacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-ABCFacturacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-ABCFacturacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-NumeroIncidencias12Meses.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-NumeroIncidencias12Meses.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-ProveedorFijoEvaluacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaEvaluacionProveedores-ProveedorFijoEvaluacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-DecisionEvaluacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedores-DecisionEvaluacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaEvaluacionProveedores-FechaDecisionEvaluacion.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaEvaluacionProveedores-FechaDecisionEvaluacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

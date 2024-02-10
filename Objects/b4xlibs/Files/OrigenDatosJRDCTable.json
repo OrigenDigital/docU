@@ -1,0 +1,30 @@
+{
+    "Version": 1.66,
+    "Theme": "Dark Theme",
+    "Items": [
+        {
+            "title": "Configuración Origen Datos JRDC",
+            "type": "Separator",
+            "key": "",
+            "required": false
+        },
+        {
+            "title": "IP JRDC",
+            "type": "Text",
+            "key": "IpJRDC",
+            "required": true
+        },
+        {
+            "title": "Puerto JRDC",
+            "type": "Text",
+            "key": "PuertoJRDC",
+            "required": true
+        },
+        {
+            "title": "Nombre Tabla",
+            "type": "Text",
+            "key": "NombreTabla",
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view .column-header,.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .filler {
+-fx-background-color: #004B55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .increment-button ,.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaCostesArticulosUsuario.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaCostesArticulosUsuario-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-CosteUnitarioUsuario.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-CosteUnitarioUsuario.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-FechaActualizacionLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-FechaActualizacionLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-UsuarioActualizacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-UsuarioActualizacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-Seleccionado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaCostesArticulosUsuario-Seleccionado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

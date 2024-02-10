@@ -1,0 +1,74 @@
+A;asignado a reparto;;100;102
+R;repartido;;101;999
+U;entregado a origen;;100;999
+AD;Efectuando despacho de aduanas; CUSTOMS CLEARANCE;210;999
+AD;Despacho de aduanas efectuado; CUSTOMS CLEARANCE;211;999
+AD;Retraso en aduanas no imputable a DHL; CUSTOMS CLEARANCE;273;999
+AI;Asignaci¢n incorrecta; INCORRECT DELIVERY TRUCK;307;314
+AV;Da¤ado;DAMAGE;201;999
+BN;Broker notificado;;350;999
+BR;Despacho efectuado y entregado por broker;;353;999
+CC;Entregado en PUNTO de VENTA;;411;999
+CE;Retenido para concertar entrega;HELD, PENDING APPOINTMENT;411;999
+CH;No entregado por falta de tiempo;OUT OF DELIVERY TIME;307;307
+CH;No entregado por aver¡a del veh¡culo;OUT OF DELIVERY TIME;399;315
+CO;Comentario. (texto libre obligatorio);COMMENTS  (NOT INCIDENT CODE);777;777
+CR;Destinatario cerrado, dejado aviso;CONSIGNEE CLOSED , NO ONE IN;103;999
+CV;Festivo;ON HOLIDAY;104;104
+CV;Destinatario cerrado (vacaciones, inventario..);ON HOLIDAY;104;999
+DD;Entregado da¤ado;DELIVERED DAMAGGED;220;999
+DE;Env¡o destruido;DESTROYED;903;999
+DI;Informaci¢n dest.incompleta/incorrecta/trasladado;INCORRECT ADDRESS;207;999
+DS;Destinatario desconocido o disuelto;UNKNOWN ADDRESS;207;230
+EC;Entrega concertada;DELIVERY ON AGREED DATE;411;999
+EE;Error de etiquetaje (etiquetas cruzadas);LABELING ERROR;901;999
+EI;Entrega incompleta;UNCOMPLETED DELIVERY;223;999
+EI;Entrega incompleta;UNCOMPLETED DELIVERY;101;999
+FA;Falta mercanc¡a (env¡o perdido);FREIGHT LOST;302;999
+FM;No entregado por mal tiempo;OTHER REASONS, BAD WEATHER;399;310
+FM;No entregado por mal tiempo;OTHER REASONS, BAD WEATHER;399;999
+FM;Huelga;OTHER REASONS, STRIKE;20;999
+FM;Huelga;OTHER REASONS, STRIKE;399;998
+FM;No entregado por fuerza mayor;OTHER REASONS, FORCE MAJOR;399;993
+FS;Recibido documentaci¢n cliente pero no bulto;;222;222
+GD;Gesti¢n incidencia en destino;;999;999
+GO;Gestionar en origen;ORIGIN ARRANGEMENT;888;888
+GO;GO por DS-Destinatario desconocido o disuelto;ORIGIN ARRANGEMENT;888;2
+GO;GO por MR-Rechazado;ORIGIN ARRANGEMENT;888;3
+GO;GO por CR-Destinatario cerrado, dejado aviso;ORIGIN ARRANGEMENT;888;4
+GO;GO por DI-Informaci¢n destinatario incorrecta o in;ORIGIN ARRANGEMENT;888;5
+GO;GO por AV env¡o averiado;ORIGIN ARRANGEMENT;888;6
+GS;Gesti¢n grandes superficies;DELIVER ON AGREED DATE, HYPERMARKETS ONLY;411;999
+ID;Identicket-n§ de recepci¢n gran superficie;IDENTICKET NUMBER FOR HYPERMARKETS  (NO INCIDENT)   ;411;999
+IN;Inventario almac‚n;;1;0
+IP;Inspecci¢n pre-salida;;333;333
+IV;Inventario veh¡culo;;666;666
+MC;Mtl no cargada (perdida de conexi¢n);NOT LEADED IN DELIVERY TRUCK;307;309
+MI;Mercanc¡a identificada;;111;111
+MN;Mercanc¡a no identificada;;0;0
+MR;Rechazado, no pedido;REJECTED ;120;121
+MR;Rechazado por condiciones de pago (portes,aduanas);REJECTED ;120;122
+MR;Rechazado por da¤ado;REJECTED ;120;124
+MR;Rechazado, env¡o incompleto;REJECTED ;306;331
+MR;Rechazado, env¡o recibido demasiado tarde;REJECTED ;306;332
+MR;Rechazado (otros);REJECTED ;120;999
+MR;Rechazado, solicitud de cambio de direcci¢n;REJECTED BY CONSIGNEE;325;999
+NA;No asignado, zona 48 horas;NOT ON DELIVERY TRUCK;444;444
+NA;No asignado,s¢lo recepciona mtl por las ma¤anas;NOT ON DELIVERY TRUCK;103;999
+NA;P‚rdida de conexion (tarde, sobrecarga, no tiempo);NOT ON DELIVERY TRUCK;213;999
+NH;PARTICULAR ausente;;104;104
+NL;Falta paquete recibid.docum (Mercanc¡a no llegada);NOT ARRIVED;301;999
+OH;Gesti¢n mtl no est ndar(medios especiales);ON HOLD  - BY CUSTOMER REQUEST;208;999
+OH;Retenido almacenaje a petici¢n del Cliente;ON HOLD  - BY CUSTOMER REQUEST;400;999
+OH;Retenido faltan piezas;ON HOLD  - BY CUSTOMER REQUEST;205;999
+PD;Falta o err¢nea documentaci¢n (aduanera o cliente);PENDING CUSTOMS DOCUMENTS;204;999
+PE;Env¡o no localizado temporalmente;SHIPMENT TEMPORARY UNLOCATED;302;999
+PP;Env¡o mal clasificado (pasado de plaza);MISSROUTED;901;999
+PR;Entregado con provisional;DELIVER WITH PROV DELIVERY NOTE;101;999
+RA;Recoger n en agencia;CONSIGNEE WILL COLLET ON DEPOT;410;999
+RC;Recarga (entrega PM);RELOADED;555;555
+RO;Env¡o robado;STOLEN;838;999
+RT;Devuelto al remitente;RETURNED TO SENDER  ;900;999
+RT;Enviado a otra delegaci¢n / direcci¢n;;902;999
+SD;Recibido paquete,falta docum (Solicitud de docum);DOCUMENTS SOLICITATED   ;312;999
+TP;Cedido a subco que no devuelve detalles de entrega;;352;999

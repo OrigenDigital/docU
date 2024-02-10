@@ -1,0 +1,459 @@
+// tamaño, bordes y color de fondo de los titulos
+.GestionVentasAmpliadaPlazos.table-view .column-header,.GestionVentasAmpliadaPlazos.table-view  .filler {
+-fx-background-color: #696969;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.GestionVentasAmpliadaPlazos.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.GestionVentasAmpliadaPlazos.table-view  .scroll-bar:horizontal ,
+.GestionVentasAmpliadaPlazos.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.GestionVentasAmpliadaPlazos.table-view  .increment-button ,.GestionVentasAmpliadaPlazos.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.GestionVentasAmpliadaPlazos.table-view  .scroll-bar:horizontal .thumb,
+.GestionVentasAmpliadaPlazos.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.GestionVentasAmpliadaPlazos.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.GestionVentasAmpliadaPlazos.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.GestionVentasAmpliadaPlazos.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.GestionVentasAmpliadaPlazos.table-view .table-row-cell:even{
+-fx-background:#E9E9E9;
+}
+
+// COLUMNAS
+.GestionVentasAmpliadaPlazos-NombreResponsableCuenta.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-NombreResponsableCuenta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-NombreVendedor.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-NombreVendedor.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Documento.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Documento.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaDocumento.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaDocumento.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaMaterial.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaMaterial.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaPlanificada.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaPlanificada.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaRequerida.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaRequerida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaPrometida.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaPrometida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-GRP.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-GRP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-NombreGRP.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-NombreGRP.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-CiudadDirEnvio.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-CiudadDirEnvio.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Stand_By.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Stand_By.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-PedidoBloqueado.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-PedidoBloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-PedidoAbierto.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-PedidoAbierto.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Linea.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Linea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-AlmOrigen.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-AlmOrigen.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-AlmDest.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-AlmDest.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Personalizado.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Personalizado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-CompraFab.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-CompraFab.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Ruta.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Ruta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-ArticuloCorte.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-ArticuloCorte.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-DirEnv.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-DirEnv.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Cliente.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Cliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-NombreCliente.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-NombreCliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-PedidoCliente.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-PedidoCliente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Talla.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Talla.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-QtyPteNeta.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-QtyPteNeta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-AlmOrigenGV.table-cell {
+-fx-text-fill: #FF0000;
+}
+.GestionVentasAmpliadaPlazos-AlmOrigenGV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos.table-view .column-header.GestionVentasAmpliadaPlazos-AlmOrigenGV .label
+ {
+-fx-text-fill: #FFA500;
+-fx-alignment: CENTER;
+}
+
+.GestionVentasAmpliadaPlazos-StockLibre.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-StockLibre.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-StockAlmNoGV.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-StockAlmNoGV.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-QtyDisponibleAcum.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-QtyDisponibleAcum.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-Status.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-Status.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-ReservaAlmacen.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-ReservaAlmacen.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-ImportePendiente.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-ImportePendiente.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-PlazoTeoricoFabLinea.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-PlazoTeoricoFabLinea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaTeoricaEntrega.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-FechaTeoricaEntrega.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaDisponibilidad.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaDisponibilidad.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos.table-view .column-header.GestionVentasAmpliadaPlazos-FechaDisponibilidad .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.GestionVentasAmpliadaPlazos-FechaPrevVentasLinea.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-FechaPrevVentasLinea.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos.table-view .column-header.GestionVentasAmpliadaPlazos-FechaPrevVentasLinea .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+.GestionVentasAmpliadaPlazos-FechaPrevVentasLineaVencida.table-cell {
+-fx-text-fill: #000000;
+}
+.GestionVentasAmpliadaPlazos-FechaPrevVentasLineaVencida.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos-FechaPrevVentasDocumento.table-cell {
+-fx-text-fill: black;
+}
+.GestionVentasAmpliadaPlazos-FechaPrevVentasDocumento.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.GestionVentasAmpliadaPlazos.table-view .column-header.GestionVentasAmpliadaPlazos-FechaPrevVentasDocumento .label
+ {
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+

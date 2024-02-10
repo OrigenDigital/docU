@@ -1,0 +1,84 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaArticulosNAV.table-view .column-header,.ListaArticulosNAV.table-view  .filler {
+-fx-background-color: #000E55;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaArticulosNAV.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaArticulosNAV.table-view  .scroll-bar:horizontal ,
+.ListaArticulosNAV.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaArticulosNAV.table-view  .increment-button ,.ListaArticulosNAV.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaArticulosNAV.table-view  .scroll-bar:horizontal .thumb,
+.ListaArticulosNAV.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaArticulosNAV.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaArticulosNAV.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaArticulosNAV.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaArticulosNAV.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaArticulosNAV-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaArticulosNAV-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaArticulosNAV-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaArticulosNAV-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaArticulosNAV-Bloqueado.table-cell {
+-fx-text-fill: black;
+}
+.ListaArticulosNAV-Bloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

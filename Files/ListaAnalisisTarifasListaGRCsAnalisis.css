@@ -1,0 +1,111 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view .column-header,.ListaAnalisisTarifasListaGRPsAnalisis.table-view  .filler {
+-fx-background-color: #6495ED;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .column-header .label{
+-fx-text-fill: #FFFFFF;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .increment-button ,.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaGRCsAnalisis.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaGRCsAnalisis-GRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-GRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-NombreGRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-NombreGRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-TipoIVAGRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-TipoIVAGRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-GRCAnalisis.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-GRCAnalisis.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-FechaActualizacionLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-FechaActualizacionLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-UsuarioActualizacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaGRCsAnalisis-UsuarioActualizacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

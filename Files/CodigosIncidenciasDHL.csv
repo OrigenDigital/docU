@@ -1,0 +1,75 @@
+﻿A;asignado a reparto
+R;repartido
+U;entregado a origen
+AD;Efectuando despacho de aduanas
+AD;Despacho de aduanas efectuado
+AD;Retraso en aduanas no imputable a DHL
+AI;Asignaci¢n incorrecta
+AV;Da¤ado
+BN;Broker notificado
+BR;Despacho efectuado y entregado por broker
+CC;Entregado en PUNTO de VENTA
+CE;Retenido para concertar entrega
+CH;No entregado por falta de tiempo
+CH;No entregado por aver¡a del veh¡culo
+CO;Comentario. (texto libre obligatorio)
+CR;Destinatario cerrado, dejado aviso
+CV;Festivo
+CV;Destinatario cerrado (vacaciones, inventario..)
+DD;Entregado da¤ado
+DE;Env¡o destruido
+DI;Informaci¢n dest.incompleta/incorrecta/trasladado
+DS;Destinatario desconocido o disuelto
+EC;Entrega concertada
+EE;Error de etiquetaje (etiquetas cruzadas)
+EI;Entrega incompleta
+EI;Entrega incompleta
+FA;Falta mercanc¡a (env¡o perdido)
+FM;No entregado por mal tiempo
+FM;No entregado por mal tiempo
+FM;Huelga
+FM;Huelga
+FM;No entregado por fuerza mayor
+FS;Recibido documentaci¢n cliente pero no bulto
+GD;Gesti¢n incidencia en destino
+GO;Gestionar en origen
+GO;GO por DS-Destinatario desconocido o disuelto
+GO;GO por MR-Rechazado
+GO;GO por CR-Destinatario cerrado, dejado aviso
+GO;GO por DI-Informaci¢n destinatario incorrecta o in
+GO;GO por AV env¡o averiado
+GS;Gesti¢n grandes superficies
+ID;Identicket-n§ de recepci¢n gran superficie
+IN;Inventario almac‚n
+IP;Inspecci¢n pre-salida
+IV;Inventario veh¡culo
+MC;Mtl no cargada (perdida de conexi¢n)
+MI;Mercanc¡a identificada
+MN;Mercanc¡a no identificada
+MR;Rechazado, no pedido
+MR;Rechazado por condiciones de pago (portes,aduanas)
+MR;Rechazado por da¤ado
+MR;Rechazado, env¡o incompleto
+MR;Rechazado, env¡o recibido demasiado tarde
+MR;Rechazado (otros)
+MR;Rechazado, solicitud de cambio de direcci¢n
+NA;No asignado, zona 48 horas
+NA;No asignado,s¢lo recepciona mtl por las ma¤anas
+NA;P‚rdida de conexion (tarde, sobrecarga, no tiempo)
+NH;PARTICULAR ausente
+NL;Falta paquete recibid.docum (Mercanc¡a no llegada)
+OH;Gesti¢n mtl no est ndar(medios especiales)
+OH;Retenido almacenaje a petici¢n del Cliente
+OH;Retenido faltan piezas
+PD;Falta o err¢nea documentaci¢n (aduanera o cliente)
+PE;Env¡o no localizado temporalmente
+PP;Env¡o mal clasificado (pasado de plaza)
+PR;Entregado con provisional
+RA;Recoger n en agencia
+RC;Recarga (entrega PM)
+RO;Env¡o robado
+RT;Devuelto al remitente
+RT;Enviado a otra delegaci¢n / direcci¢n
+SD;Recibido paquete,falta docum (Solicitud de docum)
+TP;Cedido a subco que no devuelve detalles de entrega
+

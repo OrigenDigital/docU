@@ -1,0 +1,165 @@
+// tamaño, bordes y color de fondo de los titulos
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view .column-header,.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .filler {
+-fx-background-color: #FFF8DC;
+-fx-size: 30;
+-fx-border-color: -fx-box-border;
+-fx-border-width: 0 1 1 0;
+-fx-border-insets: 0;
+}
+
+// centrar y cambiar color de los titulos de columnas
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .column-header .label{
+-fx-text-fill: #000000;
+-fx-alignment: CENTER;
+}
+
+//ScrollBars
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .scroll-bar:horizontal ,
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .scroll-bar:vertical{
+-fx-background-color:dimgray;
+}
+/* The increment And decrement button CSS class of scrollbar */
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .increment-button ,.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .decrement-button {
+-fx-background-color:transparent;
+-fx-border-color:derive(gray,80%);
+}
+/* The Main scrollbar **thumb** CSS class which we drag every time (movable) */
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .scroll-bar:horizontal .thumb,
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view  .scroll-bar:vertical .thumb {
+-fx-background-color:#AEAEAE;
+-fx-background-insets: 1.5, 1, 1.5, 1;
+-fx-background-radius: 0.5em;
+}
+//Fin Scrollbars
+
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view .table-row-cell:odd:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view .table-row-cell:even:contains-selection {
+-fx-border-color: darkred;
+-fx-border-width: 1;
+-fx-border-insets: 0 -1 0 -1;
+-fx-border-style: segments(4,4) hidden segments(4,4) hidden;
+}
+
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view .table-row-cell:odd{
+-fx-background:#FFFFFF;
+}
+
+.ListaAnalisisTarifasListaArticulosIncluidos.table-view .table-row-cell:even{
+-fx-background:#F1F1F1;
+}
+
+// COLUMNAS
+.ListaAnalisisTarifasListaArticulosIncluidos-Articulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Articulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-DescripcionArticulo.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-DescripcionArticulo.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-GRC.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-GRC.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-SistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-SistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-NombreSistemaReposicion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-NombreSistemaReposicion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Ruta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Ruta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-NombreRuta.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-NombreRuta.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Bloqueado.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Bloqueado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-BloqueadoNoDisponible.table-cell {
+-fx-text-fill: #000000;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-BloqueadoNoDisponible.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-FechaActualizacionLong.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-FechaActualizacionLong.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-UsuarioActualizacion.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-UsuarioActualizacion.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Seleccionado.table-cell {
+-fx-text-fill: black;
+}
+.ListaAnalisisTarifasListaArticulosIncluidos-Seleccionado.table-cell:selected {
+-fx-background-color: transparent;
+-fx-border-width: 3 4 3 4;
+-fx-border-insets: 0 1 1 1;
+-fx-border-color: #00BFFF;
+}

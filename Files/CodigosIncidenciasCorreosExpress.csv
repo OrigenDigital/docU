@@ -1,0 +1,51 @@
+﻿KEY_INCIDENCIA;DESCRIPCION
+1;Dirección Incorrecta
+2;Dirección Incompleta
+3;Entrega Incorrecta (se deja el paquete en el sitio equivocado)
+4;Cerrado Vacaciones
+5;Fiesta Local
+6;Persona de contacto Ausente
+7;Área Inaccesible/Restringida
+8;Paquete Rehusado
+9;Rehusado No paga Importe
+10;Cambio de fecha por el destinatario
+11;Tiempo espera excesivo para efectuar el servicio
+12;Excede dimensiones/peso
+13;Cita previa necesaria
+14;Mercancía peligrosa
+15;País sin servicio/Mercancía restringida
+16;Trámite aduana/Inspección aduanera
+17;Falta documentación/incompleta
+18;En espera de autorización del destinatario para realizar despacho (aduana)
+19;Problemas climatológicos/causa de fuerza mayor
+20;Instrucciones Cliente: recogerán en nave. Gestión automática con cierre Recogerán en nave.
+21;Sin tiempo para efectuar el servicio
+22;Error de asignación de ruta
+23;Falta Contenido
+24;Avería
+25;Robo
+26;Hurto
+27;Mercancía no cargada problemas de capacidad
+28;Expedición Incompleta
+29;Dañado
+30;Retraso vuelo importación
+31;Problema carga fichero
+32;Mercancía ya recogida
+33;Mal Embalado
+34;Cliente no tiene mercancía
+35;Importe Reembolso Erróneo
+36;Pérdida
+37;Sin tiempo por transmisión informática
+38;Cliente no tiene preparada mercancía
+39;Destinatario no recepciona en horario de tarde
+40;Retraso del vuelo o carguero en envios a Islas
+41;Sin efectivo en el servicio
+42;Paralizado por cliente
+43;Entrega Flexible
+44;ENI-Envío No Identificado
+45;Pendiente para reparto
+46; Mercancía recibida tarde Cliente
+47;Causa de fuerza mayor 
+48;Avería Clasificador
+49; Mercancía recibida tarde Cex
+50;Punto de Conveniencia sin Hueco
