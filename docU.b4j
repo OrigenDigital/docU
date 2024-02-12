@@ -908,6 +908,8 @@ Sub Process_Globals
 	Public sCamposFiltradosListaIncidenciasProveedor As String
 	Public lstValoresFiltrosListaIncidenciasProveedor As List
 	
+	Public TestVariable As String
+	
 End Sub
 
 Sub AppStart (Form1 As Form, Args() As String)
